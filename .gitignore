@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs (мы используем conda env annc, локального venv быть не должно)
+.venv/
+venv/
+env/
+
+# Job/cache outputs
+work/*/
+!work/.gitkeep
+
+# P2Rank / fpocket binaries — не пушим в git, есть скрипт скачивания
+third_party/p2rank/
+third_party/*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log

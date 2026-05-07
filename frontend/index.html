@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binding Sites Detection</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Protein binding-site detection</h1>
+        <p class="subtitle">P2Rank vs fpocket — comparison & 3D visualization</p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <form id="job-form">
+                <fieldset>
+                    <legend>Input</legend>
+                    <label>
+                        PDB ID:
+                        <input type="text" id="pdb-id" placeholder="1FBL" pattern="[0-9][A-Za-z0-9]{3}" maxlength="4">
+                    </label>
+                    <span class="or">or</span>
+                    <label>
+                        Upload PDB:
+                        <input type="file" id="pdb-file" accept=".pdb,.ent">
+                    </label>
+                    <button type="submit" id="submit-btn">Predict</button>
+                </fieldset>
+            </form>
+
+            <div id="status" class="status"></div>
+
+            <fieldset class="method-toggles" id="method-toggles" hidden>
+                <legend>Show methods</legend>
+                <label><input type="checkbox" data-method="p2rank" checked> P2Rank</label>
+                <label><input type="checkbox" data-method="fpocket" checked> fpocket</label>
+            </fieldset>
+        </section>
+
+        <section class="viewer-pane">
+            <div id="viewer"></div>
+        </section>
+
+        <section class="results-pane">
+            <h2>Pockets</h2>
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Method</th>
+                        <th>Rank</th>
+                        <th>Score</th>
+                        <th>Center (Å)</th>
+                        <th>Residues</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Day 1 skeleton. Backend wrappers — Day 2–3 (TODO).</p>
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>
