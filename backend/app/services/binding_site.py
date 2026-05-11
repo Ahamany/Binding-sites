@@ -11,6 +11,7 @@ from typing import Optional
 
 import requests
 
+from ..eval.compare import compare_methods
 from ..models.pocket import JobResult, JobStatus, Method, MethodResult
 from ..tools.fpocket import run_fpocket
 from ..tools.p2rank import run_p2rank
@@ -22,8 +23,12 @@ WORK_DIR.mkdir(parents=True, exist_ok=True)
 _jobs: dict[str, JobResult] = {}
 
 
-def list_jobs() -> list[str]:
-    return list(_jobs.keys())
+class PDBNotFoundError(Exception):
+    """RCSB вернул 404 для запрошенного PDB ID."""
+
+
+def list_jobs() -> list[JobResult]:
+    return list(_jobs.values())
 
 
 def get_job(job_id: str) -> Optional[JobResult]:
@@ -38,9 +43,11 @@ def create_job(pdb_id: Optional[str] = None) -> str:
 
 
 def fetch_pdb(pdb_id: str, dest: Path) -> Path:
-    """Скачать PDB-файл с RCSB."""
+    """Скачать PDB-файл с RCSB. 404 → PDBNotFoundError с человекочитаемым сообщением."""
     url = f"https://files.rcsb.org/download/{pdb_id.upper()}.pdb"
     r = requests.get(url, timeout=30)
+    if r.status_code == 404:
+        raise PDBNotFoundError(f"PDB ID '{pdb_id.upper()}' not found in RCSB")
     r.raise_for_status()
     dest.write_bytes(r.content)
     return dest
@@ -87,7 +94,11 @@ async def run_job(job_id: str) -> None:
 
         results = await asyncio.gather(p2rank_task, fpocket_task)
         job.results = {Method.p2rank: results[0], Method.fpocket: results[1]}
+        job.comparison = compare_methods(results[0].pockets, results[1].pockets)
         job.status = JobStatus.done
+    except (PDBNotFoundError, ValueError) as e:
+        job.status = JobStatus.failed
+        job.error = str(e)
     except Exception as e:
         job.status = JobStatus.failed
         job.error = f"{type(e).__name__}: {e}"

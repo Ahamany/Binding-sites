@@ -66,6 +66,19 @@ class Metrics(BaseModel):
     )
 
 
+class PocketMatch(BaseModel):
+    """Соответствие кармана P2Rank → ближайший карман fpocket (по центру)."""
+
+    p2rank_rank: int
+    fpocket_rank: int
+    distance: float = Field(description="Расстояние между центрами карманов, Å")
+    jaccard: float = Field(
+        description="Жаккаров коэффициент пересечения резидов (0…1)",
+        ge=0.0,
+        le=1.0,
+    )
+
+
 class JobCreate(BaseModel):
     """Запрос на создание задачи. Либо pdb_id (fetch с RCSB), либо файл (multipart)."""
 
@@ -80,4 +93,8 @@ class JobResult(BaseModel):
     pdb_id: Optional[str] = None
     results: dict[Method, MethodResult] = Field(default_factory=dict)
     metrics: dict[Method, Metrics] = Field(default_factory=dict)
+    comparison: list[PocketMatch] = Field(
+        default_factory=list,
+        description="Кросс-метод соответствия P2Rank → fpocket по центрам карманов",
+    )
     error: Optional[str] = None

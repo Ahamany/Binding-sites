@@ -40,10 +40,12 @@ pip install -r backend/requirements.txt
 | Метод | Путь | Описание |
 |---|---|---|
 | GET  | `/api/health` | Liveness probe |
+| GET  | `/api/jobs` | Листинг всех задач |
 | POST | `/api/jobs` | Создать задачу (form-data: `pdb_id` или `file`) |
 | GET  | `/api/jobs/{id}` | Статус + результат |
 | GET  | `/api/jobs/{id}/structure` | Очищенный PDB для отрисовки |
 | GET  | `/api/jobs/{id}/results` | JSON с pockets и метриками |
+| GET  | `/api/jobs/{id}/results.csv` | Карманы плоской таблицей CSV |
 
 ### Пример
 
@@ -69,7 +71,9 @@ binding-sites/
 │   │   │   ├── fpocket.py         # обёртка fpocket (Day 3)
 │   │   │   └── preprocess.py      # PDB cleanup
 │   │   ├── models/pocket.py       # Pydantic-схема
-│   │   └── eval/dcc.py            # метрика DCC (Day 7)
+│   │   └── eval/
+│   │       ├── compare.py         # cross-method сравнение (Day 6)
+│   │       └── dcc.py             # метрика DCC (Day 7)
 │   ├── tests/                     # pytest
 │   └── requirements.txt
 ├── frontend/
@@ -92,11 +96,11 @@ binding-sites/
 | День | Задача |
 |---|---|
 | 1 (07.05) | ✅ Scaffold + установка зависимостей |
-| 2 (08.05) | P2Rank wrapper |
-| 3 (09.05) | fpocket wrapper + unified schema |
-| 4 (10.05) | REST API + curl-тест end-to-end |
-| 5 (11.05) | Frontend + 3Dmol.js рендер |
-| 6 (12.05) | Сравнение методов |
+| 2 (08.05) | ✅ P2Rank wrapper + BioPython preprocess + 7 unit-тестов |
+| 3 (09.05) | ✅ fpocket wrapper + 7 unit-тестов + parity на 1FBL |
+| 4 (10.05) | ✅ Полный REST + CSV-эндпоинт + 14 API-тестов + smoke.sh (18/18) |
+| 5 (11.05) | ✅ Frontend + 3Dmol.js рендер + CSV-кнопка + hover-подсветка |
+| 6 (12.05) | ✅ Cross-method сравнение (distance + Jaccard) + click-to-zoom + 10 unit-тестов |
 | 7 (13.05) | Бенчмарк + DCC eval + apo/holo |
 | 8 (14.05) | **Pre-defense №3 (комбинированная)** + слайды |
 | 9 (15.05) | Polish + Final-слайды |

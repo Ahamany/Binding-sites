@@ -45,7 +45,23 @@
         </section>
 
         <section class="results-pane">
+            <h2>Method comparison</h2>
+            <div id="comparison-summary" class="comparison-summary">—</div>
+            <table id="comparison-table" hidden>
+                <thead>
+                    <tr>
+                        <th>P2Rank</th>
+                        <th>↔</th>
+                        <th>fpocket</th>
+                        <th>Δ, Å</th>
+                        <th>Jaccard</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
             <h2>Pockets</h2>
+            <button type="button" id="download-csv" hidden>Download CSV</button>
             <table id="results-table">
                 <thead>
                     <tr>
@@ -62,7 +78,7 @@
     </main>
 
     <footer>
-        <p>Day 1 skeleton. Backend wrappers — Day 2–3 (TODO).</p>
+        <p>P2Rank vs fpocket · Команда: Абабкова, Базуев, Пупейко, Янгалин</p>
     </footer>
 
     <script src="/app.js"></script>
