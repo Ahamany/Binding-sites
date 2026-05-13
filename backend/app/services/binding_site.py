@@ -4,6 +4,7 @@ In-memory job storage. Для MVP не нужна БД: задач немног�
 """
 
 import asyncio
+import shutil
 import time
 import uuid
 from pathlib import Path
@@ -18,8 +19,13 @@ from ..tools.fpocket import run_fpocket
 from ..tools.p2rank import run_p2rank
 from ..tools.preprocess import preprocess_pdb
 
-WORK_DIR = Path(__file__).resolve().parents[3] / "work"
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+WORK_DIR = PROJECT_ROOT / "work"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
+
+# Offline-кеш PDB для демо без интернета (Risk R4). fetch_pdb сначала
+# смотрит сюда, и автозаписывает успешные fetch'и при первой загрузке.
+PDB_CACHE_DIR = PROJECT_ROOT / "data" / "pdb_cache"
 
 _jobs: dict[str, JobResult] = {}
 
@@ -44,13 +50,32 @@ def create_job(pdb_id: Optional[str] = None) -> str:
 
 
 def fetch_pdb(pdb_id: str, dest: Path) -> Path:
-    """Скачать PDB-файл с RCSB. 404 → PDBNotFoundError с человекочитаемым сообщением."""
-    url = f"https://files.rcsb.org/download/{pdb_id.upper()}.pdb"
+    """Получить PDB-файл: сначала из локального кеша, потом из RCSB.
+
+    Cache hit  → copy data/pdb_cache/{PDB}.pdb → dest, без сети.
+    Cache miss → fetch с RCSB, write to dest, и (если кеш-папка существует)
+                 положить копию в кеш для будущих оффлайн-запусков.
+    404        → PDBNotFoundError, в кеш ничего не пишется.
+    """
+    pdb_upper = pdb_id.upper()
+    cached = PDB_CACHE_DIR / f"{pdb_upper}.pdb"
+    if cached.exists():
+        shutil.copyfile(cached, dest)
+        return dest
+
+    url = f"https://files.rcsb.org/download/{pdb_upper}.pdb"
     r = requests.get(url, timeout=30)
     if r.status_code == 404:
-        raise PDBNotFoundError(f"PDB ID '{pdb_id.upper()}' not found in RCSB")
+        raise PDBNotFoundError(f"PDB ID '{pdb_upper}' not found in RCSB")
     r.raise_for_status()
     dest.write_bytes(r.content)
+
+    if PDB_CACHE_DIR.exists():
+        try:
+            shutil.copyfile(dest, cached)
+        except OSError:
+            pass  # кеш-промах не должен ломать пайплайн
+
     return dest
 
 

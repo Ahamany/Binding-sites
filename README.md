@@ -35,6 +35,17 @@ pip install -r backend/requirements.txt
 # → http://localhost:8000
 ```
 
+### Offline-демо (Risk R4)
+
+```bash
+./scripts/precache_demo.sh                 # warm up data/pdb_cache/
+./scripts/precache_demo.sh 1FBL 1ATP       # custom subset
+./scripts/run.sh                           # fetch_pdb сначала смотрит локально
+```
+
+Кеш по умолчанию: 1FBL, 1ATP, 1HSG, 1AKE, 1YES, 1YET (6 PDB · ~1.4 МБ).
+При первой загрузке нового PDB кеш автозаполняется.
+
 ## API
 
 | Метод | Путь | Описание |
@@ -85,13 +96,17 @@ binding-sites/
 │   ├── run.py                  # batch runner + markdown report
 │   └── apo_holo.py             # apo/holo case study (HSP90 1YES/1YET)
 ├── docs/
-│   ├── pre-defense-3.md         # Marp-слайды (15 шт)
-│   ├── pre-defense-3.pdf        # сгенерированный PDF
-│   ├── pre-defense-3.pptx       # сгенерированный PPTX
-│   └── screenshots/             # 4 PNG для слайдов
+│   ├── pre-defense-3.{md,pdf,pptx}   # слайды Pre-defense №3 (13 шт)
+│   ├── final-defence.{md,pdf,pptx}   # слайды Final Defence (15 шт)
+│   └── screenshots/                  # 4 PNG для слайдов
+├── data/
+│   └── pdb_cache/                    # offline-кеш PDB (Risk R4)
 ├── scripts/
 │   ├── install_p2rank.sh
-│   └── run.sh
+│   ├── run.sh
+│   ├── smoke.sh                      # end-to-end 18 checks
+│   ├── precache_demo.sh              # warm-up для оффлайн-демо
+│   └── screenshots.py                # playwright-скрипт для скриншотов
 ├── third_party/p2rank/            # бинарь P2Rank (gitignored)
 └── work/                          # job-кеши (gitignored)
 ```
@@ -110,5 +125,7 @@ binding-sites/
 | 6 (12.05) | ✅ Cross-method сравнение (distance + Jaccard) + click-to-zoom + 10 unit-тестов |
 | 7 (13.05) | ✅ Benchmark/run.py (15 PDB) + DCC eval + apo/holo (HSP90) + 13 unit-тестов |
 | 8 (14.05) | ✅ Pre-defense №3 — Marp слайды (`docs/pre-defense-3.{md,pdf,pptx}`) + 4 скриншота + failure-cases |
-| 9 (15.05) | Polish + Final-слайды + offline PDB cache |
+| 9 (15.05) | ✅ Offline PDB cache (Risk R4) + 5 cache-тестов + Final-слайды (`docs/final-defence.{md,pdf,pptx}`) |
 | 16.05 | **Final Defence** |
+
+**Сводка:** 56 unit-тестов · 18/18 smoke · 28 файлов в `docs/`, `benchmark/`, `data/` · бенчмарк P2Rank top-3 = **69%** ≥ acceptance 65%.
