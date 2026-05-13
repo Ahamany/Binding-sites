@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.1137
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1619
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6251
+HEADER 5  - Mean B-factor of pocket residues  : 0.4103
+HEADER 6  - Hydrophobicity Score              : 6.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.2654
+HEADER 10 - Pocket volume (convex hull)       : 3.0006
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   2125   CE LYS B  57       8.138  -5.684  32.268  0.00  0.00           C 0
+ATOM   2123   CG LYS B  57       9.416  -4.276  30.563  0.00  0.00           C 0
+ATOM   2992   CD LYS B 166      14.807  -3.560  34.043  0.00  0.00           C 0
+ATOM   2991   CG LYS B 166      15.721  -4.374  33.096  0.00  0.00           C 0
+ATOM   2990   CB LYS B 166      15.468  -4.243  31.587  0.00  0.00           C 0
+ATOM   3029  OE2 GLU B 170      11.583  -8.202  27.960  0.00  0.00           O 0
+ATOM   2112    O ALA B  55      12.313  -2.195  32.516  0.57  2.14           O 0
+ATOM   2117    O GLY B  56      12.985  -3.089  28.638  0.26  2.14           O 0
+ATOM   2987   CA LYS B 166      16.527  -4.992  30.774  0.00  0.00           C 0
+ATOM   3019  CG1 VAL B 169      16.407 -10.621  28.678  0.00  0.00           C 0
+ATOM   2989    O LYS B 166      15.883  -5.832  28.651  0.00  0.00           O 0
+ATOM   3018   CB VAL B 169      17.045  -9.235  28.617  0.00  0.00           C 0
+ATOM   3020  CG2 VAL B 169      18.300  -9.262  29.461  0.00  0.00           C 0
+ATOM   3026   CG GLU B 170      12.694  -6.349  26.968  0.00  0.00           C 0
+TER
+END

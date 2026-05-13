@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0495
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0085
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6656
+HEADER 5  - Mean B-factor of pocket residues  : 0.1470
+HEADER 6  - Hydrophobicity Score              : 7.5714
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.5346
+HEADER 10 - Pocket volume (convex hull)       : 4.3795
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   1210   OG SER A 165      30.183 -60.591  55.398  0.50  5.36           O 0
+ATOM   1197  OE1 GLU A 163      32.427 -57.091  51.381  0.00  0.00           O 0
+ATOM   1195   CG GLU A 163      33.017 -56.184  53.518  0.00  0.00           C 0
+ATOM   1205    N SER A 165      32.434 -60.109  57.116  0.75  4.37           N 0
+ATOM   1200   CA SER A 164      34.218 -58.504  56.834  0.00  0.00           C 0
+ATOM   1193    O GLU A 163      36.205 -57.592  55.198  0.64  1.07           O 0
+ATOM   1247  CG2 THR A 171      38.384 -60.034  51.313  0.00  0.00           C 0
+ATOM   1246  OG1 THR A 171      37.330 -57.860  51.458  0.62  3.21           O 0
+ATOM   1226    C SER A 169      38.173 -61.819  57.177  0.00  0.00           C 0
+ATOM   1228   CB SER A 169      38.715 -63.981  56.130  0.00  0.00           C 0
+ATOM   1227    O SER A 169      37.058 -61.494  57.612  0.68  2.14           O 0
+ATOM   1265  NH2 ARG A 173      36.470 -57.910  48.247  0.25  8.75           N 0
+ATOM   1230    N PHE A 170      38.980 -61.002  56.503  0.00  0.00           N 0
+ATOM   1231   CA PHE A 170      38.587 -59.669  56.065  0.00  0.00           C 0
+ATOM   1241    N THR A 171      38.795 -58.498  53.945  0.00  0.00           N 0
+TER
+END

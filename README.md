@@ -80,8 +80,15 @@ binding-sites/
 │   ├── index.html
 │   ├── app.js                     # upload + polling + 3Dmol.js
 │   └── style.css
-├── benchmark/                     # COACH420 subset + run.py (Day 7)
-├── docs/                          # материалы для защит
+├── benchmark/
+│   ├── coach420_subset.csv     # 15 PDB ID для бенчмарка
+│   ├── run.py                  # batch runner + markdown report
+│   └── apo_holo.py             # apo/holo case study (HSP90 1YES/1YET)
+├── docs/
+│   ├── pre-defense-3.md         # Marp-слайды (15 шт)
+│   ├── pre-defense-3.pdf        # сгенерированный PDF
+│   ├── pre-defense-3.pptx       # сгенерированный PPTX
+│   └── screenshots/             # 4 PNG для слайдов
 ├── scripts/
 │   ├── install_p2rank.sh
 │   └── run.sh
@@ -101,7 +108,7 @@ binding-sites/
 | 4 (10.05) | ✅ Полный REST + CSV-эндпоинт + 14 API-тестов + smoke.sh (18/18) |
 | 5 (11.05) | ✅ Frontend + 3Dmol.js рендер + CSV-кнопка + hover-подсветка |
 | 6 (12.05) | ✅ Cross-method сравнение (distance + Jaccard) + click-to-zoom + 10 unit-тестов |
-| 7 (13.05) | Бенчмарк + DCC eval + apo/holo |
-| 8 (14.05) | **Pre-defense №3 (комбинированная)** + слайды |
-| 9 (15.05) | Polish + Final-слайды |
+| 7 (13.05) | ✅ Benchmark/run.py (15 PDB) + DCC eval + apo/holo (HSP90) + 13 unit-тестов |
+| 8 (14.05) | ✅ Pre-defense №3 — Marp слайды (`docs/pre-defense-3.{md,pdf,pptx}`) + 4 скриншота + failure-cases |
+| 9 (15.05) | Polish + Final-слайды + offline PDB cache |
 | 16.05 | **Final Defence** |

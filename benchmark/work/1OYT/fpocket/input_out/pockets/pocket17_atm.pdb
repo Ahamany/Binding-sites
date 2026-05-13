@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0239
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9999
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5523
+HEADER 5  - Mean B-factor of pocket residues  : 0.3052
+HEADER 6  - Hydrophobicity Score              : 20.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 321.7895
+HEADER 10 - Pocket volume (convex hull)       : 16.8746
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   1188   CG PRO H 120      12.432  14.186  15.828  0.00  0.00           C 0
+ATOM      1    N ALA L   1B     13.916  20.380  19.421  0.00  0.00           N 0
+ATOM     18   CB CYS L   1      12.394  15.226  20.460  0.00  0.00           C 0
+ATOM    468    O ILE H  47      16.661  12.554  17.397  0.00  0.00           O 0
+ATOM    474   CA SER H  48      17.021  13.145  14.675  0.00  0.00           C 0
+ATOM    477   CB SER H  48      18.447  13.610  14.960  0.00  0.00           C 0
+ATOM   1137  CE2 PHE H 114      12.657  16.347  12.682  0.00  0.00           C 0
+ATOM   1138   CZ PHE H 114      13.491  15.271  12.351  0.00  0.00           C 0
+ATOM    484   CG ASP H  49      17.866  16.005  10.236  0.00  0.00           C 0
+ATOM    479    N ASP H  49      16.990  13.998  12.379  0.74  1.09           N 0
+ATOM    485  OD1 ASP H  49      17.811  17.127   9.671  0.00  0.00           O 0
+ATOM      6    N ASP L   1A     11.236  19.866  19.220  0.24  1.09           N 0
+ATOM     10   CB ASP L   1A      9.435  19.622  17.631  0.00  0.00           C 0
+ATOM   1181  CE1 HIS H 119       8.070  16.469  15.337  0.00  0.00           C 0
+ATOM   1135  CD2 PHE H 114      11.453  16.536  11.992  0.00  0.00           C 0
+ATOM     12  OD1 ASP L   1A      7.478  19.628  16.332  0.00  0.00           O 0
+ATOM     14    N CYS L   1      11.038  17.197  19.732  0.29  1.09           N 0
+ATOM      8    C ASP L   1A      9.935  17.760  19.226  0.00  0.00           C 0
+TER
+END

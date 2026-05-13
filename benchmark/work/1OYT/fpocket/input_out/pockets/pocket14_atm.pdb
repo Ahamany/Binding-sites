@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0092
+HEADER 1  - Drug Score                        : 0.0062
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9238
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5856
+HEADER 5  - Mean B-factor of pocket residues  : 0.5792
+HEADER 6  - Hydrophobicity Score              : 28.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 365.7303
+HEADER 10 - Pocket volume (convex hull)       : 13.3712
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   2315  CD1 ILE I   5      13.476  -1.372  -1.200  0.00  0.00           C 0
+ATOM    698  CD1 LEU H  65      16.388  -0.519   0.660  0.00  0.00           C 0
+ATOM   2319    O PRO I   6      13.579   0.685  -5.661  0.00  0.00           O 0
+ATOM    850  CG2 ILE H  82      14.517   2.879   1.258  0.00  0.00           C 0
+ATOM    844    N ILE H  82      12.471   5.955   2.319  0.00  0.00           N 0
+ATOM    849  CG1 ILE H  82      12.008   3.215   1.290  0.00  0.00           C 0
+ATOM    789   OH TYR H  76       8.360   5.081  -2.344  0.00  0.00           O 0
+ATOM    848   CB ILE H  82      13.368   3.924   1.199  0.00  0.00           C 0
+ATOM    847    O ILE H  82      15.149   6.535   1.633  0.00  0.00           O 0
+ATOM   2321   CG PRO I   6      10.034   3.120  -5.045  0.00  0.00           C 0
+ATOM   2320   CB PRO I   6      11.306   3.111  -5.844  0.00  0.00           C 0
+ATOM    851  CD1 ILE H  82      11.758   2.093   0.306  0.00  0.00           C 0
+ATOM    829    O GLU H  80       8.224   7.168   1.874  0.52  6.43           O 0
+ATOM    841   CD LYS H  81      10.405  10.128   2.064  0.00  0.00           C 0
+ATOM    810    N ASN H  78       4.130   7.712  -1.264  0.58  2.19           N 0
+ATOM    843   NZ LYS H  81       8.026  10.749   1.801  0.54  3.28           N 0
+ATOM    842   CE LYS H  81       9.427  11.202   1.633  0.00  0.00           C 0
+ATOM    699  CD2 LEU H  65      18.309   0.992   1.293  0.00  0.00           C 0
+ATOM   2322   CD PRO I   6      10.228   1.926  -4.134  0.00  0.00           C 0
+TER
+END

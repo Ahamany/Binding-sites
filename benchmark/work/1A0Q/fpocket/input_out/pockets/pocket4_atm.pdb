@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0595
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8618
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6753
+HEADER 5  - Mean B-factor of pocket residues  : 0.6591
+HEADER 6  - Hydrophobicity Score              : 1.2857
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 270.8016
+HEADER 10 - Pocket volume (convex hull)       : 14.2810
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM   1517    O THR L 197      14.956   7.126  16.975  0.00  0.00           O 0
+ATOM   1079    C ASP L 143      15.255   7.552  21.733  0.00  0.00           C 0
+ATOM   1080    O ASP L 143      14.138   7.261  21.300  0.70  2.14           O 0
+ATOM   1081   CB ASP L 143      15.884   5.656  23.140  0.00  0.00           C 0
+ATOM   1521    N HIS L 198      13.088   6.316  16.009  0.00  0.00           N 0
+ATOM   1520  CG2 THR L 197      16.186   5.023  14.120  0.00  0.00           C 0
+ATOM   1523    C HIS L 198      11.702   4.696  17.164  0.00  0.00           C 0
+ATOM   1516    C THR L 197      14.304   6.865  15.963  0.00  0.00           C 0
+ATOM   1085    N ILE L 144      16.202   8.190  21.042  0.64  2.19           N 0
+ATOM   1084  OD2 ASP L 143      18.042   4.855  23.617  0.00  0.00           O 0
+ATOM   1531    N LYS L 199      11.333   4.105  18.302  0.68  2.19           N 0
+ATOM   1535   CB LYS L 199      10.773   2.346  19.837  0.00  0.00           C 0
+ATOM   1522   CA HIS L 198      12.358   6.070  17.246  0.00  0.00           C 0
+ATOM   1066   CB SER L 141      10.751   5.220  23.712  0.00  0.00           C 0
+ATOM   1097   CB ASN L 145      19.020   8.137  16.052  0.00  0.00           C 0
+ATOM   1518   CB THR L 197      16.270   6.502  14.446  0.00  0.00           C 0
+ATOM   1067   OG SER L 141      10.924   3.951  24.331  0.41  8.57           O 0
+ATOM   1537   CD LYS L 199      10.909   0.704  21.642  0.00  0.00           C 0
+ATOM   1093    N ASN L 145      17.374   8.900  17.742  0.59  1.09           N 0
+ATOM   1087    C ILE L 144      17.281   9.191  19.045  0.00  0.00           C 0
+ATOM   1088    O ILE L 144      18.220   9.708  19.663  0.00  0.00           O 0
+TER
+END

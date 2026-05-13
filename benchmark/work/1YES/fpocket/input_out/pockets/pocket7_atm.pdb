@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0752
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0633
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7045
+HEADER 5  - Mean B-factor of pocket residues  : 0.3595
+HEADER 6  - Hydrophobicity Score              : -33.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 213.4305
+HEADER 10 - Pocket volume (convex hull)       : 1.8927
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   1131  OD1 ASP A 156      51.120 -37.534  53.058  0.79  3.21           O 0
+ATOM   1121   CB ASN A 155      47.157 -35.937  52.920  0.00  0.00           C 0
+ATOM    481   NZ LYS A  69      51.062 -33.373  56.696  0.43  7.66           N 0
+ATOM    459  OD2 ASP A  66      52.244 -30.221  55.265  0.26  7.50           O 0
+ATOM    472   OG SER A  68      50.629 -28.184  52.810  0.83  7.50           O 0
+ATOM    470    O SER A  68      47.057 -29.324  52.368  0.63  7.50           O 0
+ATOM    473    N LYS A  69      47.700 -29.315  54.512  0.00  0.00           N 0
+ATOM    469    C SER A  68      47.653 -28.784  53.295  0.00  0.00           C 0
+ATOM    474   CA LYS A  69      47.035 -30.585  54.799  0.00  0.00           C 0
+ATOM    478   CG LYS A  69      48.891 -31.483  56.266  0.00  0.00           C 0
+ATOM   1124  ND2 ASN A 155      46.165 -34.323  54.411  0.78  1.09           N 0
+ATOM   1123  OD1 ASN A 155      45.093 -34.781  52.489  0.48  9.64           O 0
+ATOM   1120    O ASN A 155      48.338 -37.434  50.393  0.00  0.00           O 0
+ATOM   1122   CG ASN A 155      46.039 -34.973  53.261  0.00  0.00           C 0
+TER
+END

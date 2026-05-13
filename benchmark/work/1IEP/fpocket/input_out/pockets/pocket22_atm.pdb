@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0419
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8879
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5383
+HEADER 5  - Mean B-factor of pocket residues  : 0.5349
+HEADER 6  - Hydrophobicity Score              : 20.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 396.0537
+HEADER 10 - Pocket volume (convex hull)       : 27.8110
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.6667
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   1401   CB ALA A 399      28.635  53.621  29.152  0.00  0.00           C 0
+ATOM   1420  CE2 PHE A 401      24.435  52.191  31.479  0.00  0.00           C 0
+ATOM   1405    O LYS A 400      24.494  55.930  28.843  0.62  3.21           O 0
+ATOM   1300   OG SER A 385      23.944  55.802  25.029  0.00  0.00           O 0
+ATOM   1421   CZ PHE A 401      25.807  52.420  31.510  0.00  0.00           C 0
+ATOM   1402    N LYS A 400      27.241  56.348  28.931  0.74  1.09           N 0
+ATOM   1398   CA ALA A 399      29.244  54.995  28.920  0.00  0.00           C 0
+ATOM   1299   CB SER A 385      24.651  56.830  24.362  0.00  0.00           C 0
+ATOM   1396    O GLY A 398      31.651  55.016  27.537  0.00  0.00           O 0
+ATOM   1407   CG LYS A 400      27.581  59.330  28.493  0.00  0.00           C 0
+ATOM   1306   CG ARG A 386      28.812  58.925  23.019  0.00  0.00           C 0
+ATOM   1409   CE LYS A 400      28.724  61.411  27.712  0.00  0.00           C 0
+ATOM   1307   CD ARG A 386      30.091  58.622  22.253  0.00  0.00           C 0
+ATOM   1410   NZ LYS A 400      28.568  62.736  27.047  0.44  6.56           N 0
+ATOM   1308   NE ARG A 386      30.659  59.836  21.666  0.60  4.37           N 0
+ATOM   1395    C GLY A 398      31.670  55.075  28.768  0.00  0.00           C 0
+ATOM   1394   CA GLY A 398      32.987  55.158  29.511  0.00  0.00           C 0
+ATOM   1377   CB ALA A 395      30.252  60.271  32.219  0.00  0.00           C 0
+ATOM   1400    O ALA A 399      28.730  56.639  30.592  0.79  1.07           O 0
+TER
+END

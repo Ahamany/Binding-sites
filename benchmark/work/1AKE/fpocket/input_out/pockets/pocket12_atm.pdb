@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0354
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7030
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4874
+HEADER 5  - Mean B-factor of pocket residues  : 0.1033
+HEADER 6  - Hydrophobicity Score              : -13.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.0788
+HEADER 10 - Pocket volume (convex hull)       : 5.3782
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.8182
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   1122    O ASP A 147      16.985  65.266  16.259  0.19  8.57           O 0
+ATOM   1142   CA GLY A 150      19.389  65.023  11.444  0.00  0.00           C 0
+ATOM   1114    O ASP A 146      18.118  63.080  13.573  0.00  0.00           O 0
+ATOM   1088  CG2 VAL A 142      11.957  64.872  11.407  0.00  0.00           C 0
+ATOM   1107   CG LYS A 145      16.244  62.558   8.408  0.00  0.00           C 0
+ATOM   1086   CB VAL A 142      12.377  63.646  10.539  0.00  0.00           C 0
+ATOM   1087  CG1 VAL A 142      12.325  63.850   9.046  0.00  0.00           C 0
+ATOM   1120   CA ASP A 147      16.517  62.933  15.961  0.00  0.00           C 0
+ATOM   1108   CD LYS A 145      17.425  62.505   7.529  0.00  0.00           C 0
+ATOM   1109   CE LYS A 145      16.816  62.743   6.193  0.00  0.00           C 0
+ATOM   1144    O GLY A 150      19.877  64.351   9.159  0.00  0.00           O 0
+ATOM   1106   CB LYS A 145      16.659  62.186   9.822  0.00  0.00           C 0
+ATOM   1125  OD1 ASP A 147      14.242  61.247  15.880  0.00  0.00           O 0
+ATOM   1077   CB LYS A 141      10.883  63.022  15.357  0.00  0.00           C 0
+ATOM   1082    N VAL A 142      11.505  62.114  12.251  0.44  1.09           N 0
+ATOM   1105    O LYS A 145      16.188  60.303  12.293  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0408
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8674
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5165
+HEADER 5  - Mean B-factor of pocket residues  : 0.4874
+HEADER 6  - Hydrophobicity Score              : -1.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.0526
+HEADER 10 - Pocket volume (convex hull)       : 3.9888
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM    802   OH TYR A 132     -14.542  37.787   8.266  0.00  0.00           O 0
+ATOM   1563  OE2 GLU A 225     -15.755  42.133  12.152  0.61  4.29           O 0
+ATOM   1523   CD ARG A 221     -14.737  34.643  13.460  0.00  0.00           C 0
+ATOM   1526  NH1 ARG A 221     -12.463  35.296  15.107  0.00  0.00           N 0
+ATOM   1553  OE1 GLN A 224     -14.706  36.986  16.673  0.00  0.00           O 0
+ATOM    799  CE1 TYR A 132     -16.716  37.102   9.068  0.00  0.00           C 0
+ATOM   1560   CG GLU A 225     -17.713  40.806  11.881  0.00  0.00           C 0
+ATOM   1549    O GLN A 224     -18.462  41.077  16.742  0.00  0.00           O 0
+ATOM   1584   CD ARG A 228     -15.060  44.487  15.239  0.00  0.00           C 0
+ATOM   1583   CG ARG A 228     -15.959  44.946  16.395  0.00  0.00           C 0
+ATOM   1582   CB ARG A 228     -17.271  44.142  16.486  0.00  0.00           C 0
+ATOM   1520    O ARG A 221     -18.485  37.440  13.144  0.58  1.07           O 0
+ATOM   1521   CB ARG A 221     -16.940  34.887  12.319  0.00  0.00           C 0
+ATOM   1550   CB GLN A 224     -17.293  38.077  16.639  0.00  0.00           C 0
+ATOM   1548    C GLN A 224     -18.655  40.034  16.155  0.00  0.00           C 0
+TER
+END

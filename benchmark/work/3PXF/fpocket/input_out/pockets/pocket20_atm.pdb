@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.1171
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.8728
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5015
+HEADER 5  - Mean B-factor of pocket residues  : 0.0684
+HEADER 6  - Hydrophobicity Score              : 26.2222
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 252.2429
+HEADER 10 - Pocket volume (convex hull)       : 8.3088
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1484    N SER A 181     114.830 136.378  42.015  0.00  0.00           N 0
+ATOM   1463    O TYR A 179     117.789 134.592  39.161  0.00  0.00           O 0
+ATOM   1489   OG SER A 181     112.859 138.240  40.793  0.74  2.14           O 0
+ATOM   1488   CB SER A 181     114.177 138.611  41.259  0.00  0.00           C 0
+ATOM   2212   CB PRO A 271     111.241 136.643  37.176  0.00  0.00           C 0
+ATOM   2222  ND2 ASN A 272     113.243 140.469  35.467  0.53  8.75           N 0
+ATOM   1413   CG GLU A 172     112.331 132.308  39.020  0.00  0.00           C 0
+ATOM   1473   CA TYR A 180     116.238 134.475  41.404  0.00  0.00           C 0
+ATOM   2213   CG PRO A 271     111.296 135.302  36.594  0.00  0.00           C 0
+ATOM   1858  CZ2 TRP A 227     111.225 131.905  34.073  0.00  0.00           C 0
+ATOM   1899   CEAMET A 233     114.766 130.362  34.574  0.00  0.00           C 0
+ATOM   1412   CB GLU A 172     112.619 131.629  37.667  0.00  0.00           C 0
+ATOM   1449   CB CYS A 177     116.798 131.198  37.720  0.00  0.00           C 0
+ATOM   1855  NE1 TRP A 227     111.358 133.693  32.305  0.42  6.56           N 0
+ATOM   2214   CD PRO A 271     110.622 135.438  35.263  0.00  0.00           C 0
+ATOM   2221  OD1 ASN A 272     113.708 140.059  33.307  0.00  0.00           O 0
+TER
+END

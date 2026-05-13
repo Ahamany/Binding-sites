@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0189
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7812
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6004
+HEADER 5  - Mean B-factor of pocket residues  : 0.1700
+HEADER 6  - Hydrophobicity Score              : -4.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.6686
+HEADER 10 - Pocket volume (convex hull)       : 4.1278
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+ATOM    626  NH1 ARG A  87      19.242 -57.201  56.704  0.35  5.47           N 0
+ATOM    621   CB ARG A  87      19.163 -52.562  55.282  0.00  0.00           C 0
+ATOM    623   CD ARG A  87      19.022 -54.414  56.983  0.00  0.00           C 0
+ATOM    612    O ASP A  86      20.671 -52.083  52.779  0.00  0.00           O 0
+ATOM    624   NE ARG A  87      17.989 -55.281  56.433  0.68  3.28           N 0
+ATOM    627  NH2 ARG A  87      17.095 -57.319  55.875  0.00  0.00           N 0
+ATOM    603    O GLN A  85      16.967 -51.210  51.164  0.75  7.50           O 0
+ATOM   1052  OE2 GLU A 146      23.347 -58.360  55.707  0.46  9.64           O 0
+ATOM   1381  CD2 HIS A 189      26.184 -53.348  52.934  0.00  0.00           C 0
+ATOM   1060   CE LYS A 147      28.347 -56.324  52.530  0.00  0.00           C 0
+ATOM   1061   NZ LYS A 147      28.066 -56.844  51.155  0.00  0.00           N 0
+ATOM   1387    O LEU A 190      21.550 -55.561  58.068  0.71  1.07           O 0
+ATOM    620    O ARG A  87      21.580 -51.727  56.288  0.00  0.00           O 0
+ATOM    625   CZ ARG A  87      18.117 -56.599  56.318  0.00  0.00           C 0
+ATOM   1378   CB HIS A 189      25.785 -54.321  55.317  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.0557
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9296
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6139
+HEADER 5  - Mean B-factor of pocket residues  : 0.6349
+HEADER 6  - Hydrophobicity Score              : -19.6250
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 459.6540
+HEADER 10 - Pocket volume (convex hull)       : 31.0641
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM  12182    N ASP C 399      75.192  15.386  75.114  0.53  3.28           N 0
+ATOM  12184    C ASP C 399      76.298  14.303  73.076  0.00  0.00           C 0
+ATOM  12207  OE2 GLU C 401      78.762  20.069  71.298  0.00  0.00           O 0
+ATOM  12183   CA ASP C 399      76.204  14.441  74.614  0.00  0.00           C 0
+ATOM  12204   CG GLU C 401      77.200  18.663  70.174  0.00  0.00           C 0
+ATOM  12188  OD1 ASP C 399      77.074  14.270  77.239  0.00  0.00           O 0
+ATOM  12161   CB ASN C 396      74.717  20.778  71.890  0.00  0.00           C 0
+ATOM  12193    O GLN C 400      74.306  16.749  71.090  0.00  0.00           O 0
+ATOM  12180  OE1 GLU C 398      73.334  18.896  77.803  0.00  0.00           O 0
+ATOM  12205   CD GLU C 401      78.399  19.584  70.202  0.00  0.00           C 0
+ATOM  12197  OE1 GLN C 400      76.942  13.567  68.435  0.41  7.50           O 0
+ATOM  12206  OE1 GLU C 401      78.985  19.830  69.130  0.00  0.00           O 0
+ATOM  12202    O GLU C 401      75.257  16.362  66.782  0.45  5.36           O 0
+ATOM  12203   CB GLU C 401      76.609  18.498  68.774  0.00  0.00           C 0
+ATOM  12145  CG2 THR C 394      76.758  21.484  65.289  0.00  0.00           C 0
+ATOM  12185    O ASP C 399      77.351  13.934  72.537  0.46  9.64           O 0
+ATOM  12174   CA GLU C 398      73.173  16.365  75.852  0.00  0.00           C 0
+ATOM  12173    N GLU C 398      72.371  17.115  74.907  0.00  0.00           N 0
+ATOM  12253  OE1 GLN C 406      74.406  15.404  63.244  0.00  0.00           O 0
+ATOM  12220    N SER C 403      73.762  18.586  63.336  0.58  3.28           N 0
+ATOM  12224   CB SER C 403      74.476  18.891  61.041  0.00  0.00           C 0
+TER
+END

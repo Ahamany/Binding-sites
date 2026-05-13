@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0178
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0378
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4999
+HEADER 5  - Mean B-factor of pocket residues  : 0.2659
+HEADER 6  - Hydrophobicity Score              : -10.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 227.3236
+HEADER 10 - Pocket volume (convex hull)       : 4.7613
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0500
+ATOM   1141    C SER H 115       4.944  14.237   9.312  0.00  0.00           C 0
+ATOM   1151  OD1 ASP H 116       1.040  15.815   9.760  0.70  9.64           O 0
+ATOM   1140   CA SER H 115       5.911  14.692   8.235  0.00  0.00           C 0
+ATOM   1145    N ASP H 116       3.674  14.078   8.946  0.82  2.19           N 0
+ATOM     86   NZ LYS L   9       3.258  20.591  12.840  0.33  2.19           N 0
+ATOM   1139    N SER H 115       7.271  14.594   8.763  0.00  0.00           N 0
+ATOM   1142    O SER H 115       5.347  14.020  10.456  0.89  2.14           O 0
+ATOM   1132   CB PHE H 114       9.744  15.880  10.266  0.00  0.00           C 0
+ATOM   1179  ND1 HIS H 119       7.833  15.526  14.444  0.73  3.28           N 0
+ATOM   1181  CE1 HIS H 119       8.070  16.469  15.337  0.00  0.00           C 0
+ATOM     48   CG PRO L   5       3.975  15.124  13.454  0.00  0.00           C 0
+ATOM     47   CB PRO L   5       2.522  15.332  13.202  0.00  0.00           C 0
+ATOM   1130    C PHE H 114       8.259  15.341   8.286  0.00  0.00           C 0
+ATOM   1131    O PHE H 114       8.105  16.136   7.335  0.00  0.00           O 0
+ATOM     12  OD1 ASP L   1A      7.478  19.628  16.332  0.00  0.00           O 0
+ATOM   1135  CD2 PHE H 114      11.453  16.536  11.992  0.00  0.00           C 0
+ATOM     84   CD LYS L   9       2.155  19.537  14.788  0.00  0.00           C 0
+TER
+END

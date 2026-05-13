@@ -136,6 +136,18 @@ tbody tr:hover { background: rgba(78, 161, 243, 0.08); cursor: pointer; }
     color: var(--text);
 }
 .comparison-summary strong { color: var(--accent); }
+
+.metrics-summary {
+    padding: 8px 10px;
+    margin: 4px 0 10px;
+    background: rgba(46, 204, 113, 0.08);
+    border-left: 2px solid var(--success);
+    border-radius: 3px;
+    font-size: 12px;
+    color: var(--text);
+}
+.metrics-summary .ok   { color: var(--success); font-weight: 600; }
+.metrics-summary .fail { color: var(--error);   font-weight: 600; }
 #comparison-table { margin-bottom: 16px; font-size: 11px; }
 #comparison-table td.muted { color: var(--muted); text-align: center; padding: 6px 4px; }
 .results-pane h2 { font-size: 14px; margin: 8px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }

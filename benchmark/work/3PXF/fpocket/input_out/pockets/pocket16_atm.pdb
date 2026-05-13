@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0783
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0150
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5834
+HEADER 5  - Mean B-factor of pocket residues  : 0.1487
+HEADER 6  - Hydrophobicity Score              : 36.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.5519
+HEADER 10 - Pocket volume (convex hull)       : 4.7865
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.6000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   1246  CE1 PHE A 152     121.570 134.814  50.705  0.00  0.00           C 0
+ATOM   1466  CD1 TYR A 179     122.467 135.659  41.578  0.00  0.00           C 0
+ATOM   1483   OH TYR A 180     117.502 132.492  47.514  0.73  4.29           O 0
+ATOM   1482   CZ TYR A 180     117.049 132.785  46.247  0.00  0.00           C 0
+ATOM   1049  NH2 ARG A 126     117.487 136.128  49.830  0.00  0.00           N 0
+ATOM   1475    O TYR A 180     117.066 136.516  42.330  0.00  0.00           O 0
+ATOM   1480  CE1 TYR A 180     116.048 133.725  46.045  0.00  0.00           C 0
+ATOM   1028  CD2 LEU A 124     114.185 137.024  47.015  0.00  0.00           C 0
+ATOM   1481  CE2 TYR A 180     117.577 132.090  45.170  0.00  0.00           C 0
+ATOM   1461   CA TYR A 179     119.850 134.201  40.299  0.00  0.00           C 0
+ATOM   1479  CD2 TYR A 180     117.092 132.326  43.896  0.00  0.00           C 0
+ATOM   1454    O LYS A 178     121.502 131.939  40.609  0.44  6.43           O 0
+ATOM   1472    N TYR A 180     117.680 134.253  41.380  0.00  0.00           N 0
+ATOM   1027  CD1 LEU A 124     114.825 139.106  48.246  0.00  0.00           C 0
+ATOM   1485   CA SER A 181     114.563 137.754  42.458  0.00  0.00           C 0
+ATOM   1490    N THR A 182     113.080 139.039  43.903  0.68  1.09           N 0
+TER
+END

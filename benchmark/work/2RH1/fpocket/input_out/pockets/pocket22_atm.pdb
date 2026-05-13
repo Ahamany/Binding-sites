@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0804
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.9500
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5813
+HEADER 5  - Mean B-factor of pocket residues  : 0.3917
+HEADER 6  - Hydrophobicity Score              : 25.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 217.5317
+HEADER 10 - Pocket volume (convex hull)       : 6.2731
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM   2512    N ARG A1119     -18.972  60.901  41.917  0.00  0.00           N 0
+ATOM   2546  OE1 GLN A1122     -14.139  62.505  40.758  0.74  6.43           O 0
+ATOM   2516   CB ARG A1119     -18.179  61.041  44.229  0.00  0.00           C 0
+ATOM   2513   CA ARG A1119     -17.857  60.571  42.806  0.00  0.00           C 0
+ATOM   2517   CG ARG A1119     -17.067  60.873  45.241  0.00  0.00           C 0
+ATOM   2521  NH1 ARG A1119     -17.149  63.849  46.666  0.61  8.75           N 0
+ATOM   2486    O THR A1115     -21.124  62.964  43.206  0.45  4.29           O 0
+ATOM   2242    O LYS A1083     -17.732  66.243  37.649  0.55  7.50           O 0
+ATOM   2510  CD1 LEU A1118     -21.516  64.484  38.518  0.00  0.00           C 0
+ATOM   2466    O ALA A1112     -23.542  67.410  39.483  0.56  1.07           O 0
+ATOM   2484   CA THR A1115     -22.860  64.550  42.845  0.00  0.00           C 0
+ATOM   2489  CG2 THR A1115     -21.562  66.027  44.419  0.00  0.00           C 0
+ATOM   2508   CB LEU A1118     -20.299  62.503  39.566  0.00  0.00           C 0
+ATOM   2243   CB LYS A1083     -19.193  68.923  38.398  0.00  0.00           C 0
+ATOM   2245   CD LYS A1083     -20.720  70.447  39.698  0.00  0.00           C 0
+ATOM   2240   CA LYS A1083     -17.776  68.623  37.931  0.00  0.00           C 0
+ATOM   2278  CG2 VAL A1087     -17.032  62.832  37.602  0.00  0.00           C 0
+ATOM   2244   CG LYS A1083     -19.359  70.297  39.063  0.00  0.00           C 0
+TER
+END

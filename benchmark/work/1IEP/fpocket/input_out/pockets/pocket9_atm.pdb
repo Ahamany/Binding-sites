@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0162
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8496
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5196
+HEADER 5  - Mean B-factor of pocket residues  : 0.2678
+HEADER 6  - Hydrophobicity Score              : 10.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.9549
+HEADER 10 - Pocket volume (convex hull)       : 5.1538
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   3749   CB GLU B 409       9.954  71.976  63.714  0.00  0.00           C 0
+ATOM   3781  CE1 TYR B 413       6.331  68.443  63.522  0.00  0.00           C 0
+ATOM   4325  NE1 TRP B 478      12.318  65.614  61.059  0.76  9.84           N 0
+ATOM   4345   CD PRO B 480      14.264  70.221  65.414  0.00  0.00           C 0
+ATOM   4320    O TRP B 478      14.676  68.826  62.239  0.66  1.07           O 0
+ATOM   4337  OD1 ASN B 479      15.327  68.153  67.215  0.72  5.36           O 0
+ATOM   4323  CD1 TRP B 478      13.647  65.593  61.410  0.00  0.00           C 0
+ATOM   3746   CA GLU B 409       9.127  71.780  62.443  0.00  0.00           C 0
+ATOM   4074   OH TYR B 449       7.740  67.039  58.831  0.00  4.29           O 0
+ATOM   3784   OH TYR B 413       5.864  66.100  63.356  0.00  5.36           O 0
+ATOM   4335   CB ASN B 479      16.483  66.956  65.481  0.00  0.00           C 0
+ATOM   4336   CG ASN B 479      16.066  67.210  66.924  0.00  0.00           C 0
+ATOM   3745    N GLU B 409      10.001  71.669  61.279  0.00  0.00           N 0
+ATOM   4332   CA ASN B 479      16.015  68.061  64.528  0.00  0.00           C 0
+ATOM   4328  CZ2 TRP B 478      11.061  66.369  59.021  0.00  0.00           C 0
+ATOM   3742   CB PRO B 408      11.435  70.163  59.075  0.00  0.00           C 0
+TER
+END

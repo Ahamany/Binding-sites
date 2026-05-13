@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0197
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8617
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6798
+HEADER 5  - Mean B-factor of pocket residues  : 0.2296
+HEADER 6  - Hydrophobicity Score              : 14.2857
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 311.0452
+HEADER 10 - Pocket volume (convex hull)       : 12.9778
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   1444   CB ARG A 199       3.896  41.167  -3.981  0.00  0.00           C 0
+ATOM   1446   CD ARG A 199       2.950  41.766  -6.183  0.00  0.00           C 0
+ATOM   1449  NH1 ARG A 199       2.458  40.782  -8.755  0.00  0.00           N 0
+ATOM    705    O ALA A  95      -0.047  39.723  -6.764  0.31  4.29           O 0
+ATOM   1436    O THR A 198       6.726  40.849  -4.427  0.00  0.00           O 0
+ATOM   1447   NE ARG A 199       3.445  42.367  -7.412  0.54  1.09           N 0
+ATOM   1448   CZ ARG A 199       3.196  41.879  -8.621  0.00  0.00           C 0
+ATOM   1450  NH2 ARG A 199       3.688  42.483  -9.694  0.00  0.00           N 0
+ATOM   1888    O PRO A 253      11.325  43.747  -7.422  0.74  6.43           O 0
+ATOM   1437   CB THR A 198       9.177  42.235  -3.318  0.00  0.00           C 0
+ATOM   1890   CG PRO A 253      13.871  41.956  -7.665  0.00  0.00           C 0
+ATOM   1434   CA THR A 198       7.975  42.857  -4.053  0.00  0.00           C 0
+ATOM   1439  CG2 THR A 198      10.410  43.128  -3.458  0.00  0.00           C 0
+ATOM   1429    O VAL A 197       7.040  44.927  -5.634  0.42  5.36           O 0
+ATOM   1898   CD PRO A 254      10.287  45.325  -9.412  0.00  0.00           C 0
+ATOM   1891   CD PRO A 253      14.168  42.507  -6.287  0.00  0.00           C 0
+ATOM   1874    O VAL A 251      14.055  42.111  -2.768  0.00  0.00           O 0
+TER
+END

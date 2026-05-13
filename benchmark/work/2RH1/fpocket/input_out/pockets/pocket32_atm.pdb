@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.1398
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1105
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6564
+HEADER 5  - Mean B-factor of pocket residues  : 0.3510
+HEADER 6  - Hydrophobicity Score              : 8.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.8534
+HEADER 10 - Pocket volume (convex hull)       : 0.5422
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2478  CD1 PHE A1114     -27.906  61.609  39.202  0.00  0.00           C 0
+ATOM   2628    O ASN A1132     -29.422  57.104  42.307  0.63  7.50           O 0
+ATOM   2631  OD1 ASN A1132     -26.088  57.807  45.962  0.68  6.43           O 0
+ATOM   2497  ND2 ASN A1116     -25.181  62.050  47.163  0.00  0.00           N 0
+ATOM   2503   OG SER A1117     -25.271  58.329  41.351  0.58  2.14           O 0
+ATOM   2494   CB ASN A1116     -23.652  60.723  45.803  0.00  0.00           C 0
+ATOM   2498    N SER A1117     -23.218  59.986  42.776  0.70  1.09           N 0
+ATOM   2629   CB ASN A1132     -26.486  56.817  43.828  0.00  0.00           C 0
+ATOM   2473   CA PHE A1114     -25.586  63.533  40.383  0.00  0.00           C 0
+ATOM   2471    O GLY A1113     -26.687  65.780  41.588  0.43  6.43           O 0
+ATOM   2483    N THR A1115     -24.139  64.364  42.186  0.32  1.09           N 0
+ATOM   2490    N ASN A1116     -23.112  62.494  44.138  0.49  1.09           N 0
+ATOM   2474    C PHE A1114     -24.276  63.500  41.179  0.00  0.00           C 0
+TER
+END

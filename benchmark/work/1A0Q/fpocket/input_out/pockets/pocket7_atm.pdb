@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.0041
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.7560
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4274
+HEADER 5  - Mean B-factor of pocket residues  : 0.5199
+HEADER 6  - Hydrophobicity Score              : 2.2222
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.2762
+HEADER 10 - Pocket volume (convex hull)       : 11.0707
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM    613  OE2 GLU L  81      -1.199  13.180  41.888  0.68  6.43           O 0
+ATOM    447   CD PRO L  59      -1.424  12.388  48.032  0.00  0.00           C 0
+ATOM    473  CE1 PHE L  62       1.435  10.634  46.479  0.00  0.00           C 0
+ATOM    475   CZ PHE L  62       2.560  10.981  45.733  0.00  0.00           C 0
+ATOM    432    O GLY L  57      -3.082  14.758  49.694  0.00  0.00           O 0
+ATOM    446   CG PRO L  59      -2.432  11.640  47.174  0.00  0.00           C 0
+ATOM    339  NH2 ARG L  45       1.110  17.671  47.451  0.00  0.00           N 0
+ATOM    338  NH1 ARG L  45       2.668  17.186  45.828  0.58  7.66           N 0
+ATOM    440  CD1 ILE L  58       1.682  15.594  49.723  0.00  0.00           C 0
+ATOM    612  OE1 GLU L  81      -1.875  14.592  40.417  0.00  0.00           O 0
+ATOM    611   CD GLU L  81      -1.048  13.779  40.825  0.00  0.00           C 0
+ATOM    620  OD1 ASP L  82       2.103  11.405  41.850  0.54  2.14           O 0
+ATOM    272  OE1 GLN L  37       5.631  14.154  43.874  0.53  1.07           O 0
+ATOM    292   NZ LYS L  39       3.913  17.216  41.009  0.00  0.00           N 0
+ATOM    610   CG GLU L  81       0.186  13.458  39.990  0.00  0.00           C 0
+ATOM    608    O GLU L  81       3.825  14.826  39.653  0.81  1.07           O 0
+ATOM    609   CB GLU L  81       0.754  14.563  39.074  0.00  0.00           C 0
+TER
+END

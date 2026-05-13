@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    97:
+HEADER 0  - Pocket Score                      : -0.1900
+HEADER 1  - Drug Score                        : 0.0541
+HEADER 2  - Number of alpha spheres           :    65
+HEADER 3  - Mean alpha-sphere radius          : 4.0756
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4737
+HEADER 5  - Mean B-factor of pocket residues  : 0.2656
+HEADER 6  - Hydrophobicity Score              : 40.0625
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 558.2625
+HEADER 10 - Pocket volume (convex hull)       : 106.9892
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 36.2105
+HEADER 13 - Number of apolar alpha sphere     :    38
+HEADER 14 - Proportion of apolar alpha sphere : 0.5846
+HETATM18302  O2D HEM D 682      16.748  35.635  57.027  0.65  7.50           O 0
+HETATM18265  CHA HEM D 682      11.945  37.119  57.172  0.00  0.00           C 0
+HETATM18270  C2A HEM D 682      10.516  35.607  55.740  0.00  0.00           C 0
+HETATM18274  CAA HEM D 682      11.160  34.236  55.994  0.00  0.00           C 0
+ATOM  15850  CG2 VAL D 291      15.186  36.232  49.147  0.00  0.00           C 0
+HETATM18273  CMA HEM D 682       8.848  34.904  53.906  0.00  0.00           C 0
+HETATM18271  C3A HEM D 682       9.506  35.871  54.872  0.00  0.00           C 0
+HETATM18266  CHB HEM D 682       8.380  37.924  54.062  0.00  0.00           C 0
+ATOM  15232  CE1 HIS D 214      15.997  31.374  56.501  0.00  0.00           C 0
+ATOM  15168  NE2 HIS D 207      14.435  40.363  54.936  0.00  0.00           N 0
+ATOM  15297  NH2 ARG D 222      19.871  34.174  53.708  0.00  0.00           N 0
+ATOM  15242   NZ LYS D 215      20.064  29.513  53.335  0.00  0.00           N 0
+ATOM  15713  CD1 ILE D 274      17.222  32.477  47.509  0.00  0.00           C 0
+ATOM  15843  OE2 GLU D 290      20.364  33.919  49.352  0.55  2.14           O 0
+ATOM  15230  ND1 HIS D 214      16.619  30.498  55.732  0.00  0.00           N 0
+HETATM18269  C1A HEM D 682      10.904  36.915  56.287  0.00  0.00           C 0
+ATOM  15849  CG1 VAL D 291      16.025  38.351  49.980  0.00  0.00           C 0
+ATOM  15166  CD2 HIS D 207      15.450  40.654  54.058  0.00  0.00           C 0
+ATOM  15129  OE1 GLN D 203      10.895  42.004  52.578  0.65  2.14           O 0
+ATOM  15899  CD2 LEU D 298      12.794  42.796  50.006  0.00  0.00           C 0
+ATOM  15870   CB LEU D 294      11.324  37.460  46.645  0.00  0.00           C 0
+HETATM18283  CMB HEM D 682       6.595  39.274  51.846  0.00  0.00           C 0
+ATOM  15872  CD1 LEU D 294      12.731  35.389  47.165  0.00  0.00           C 0
+ATOM  15848   CB VAL D 291      16.312  37.160  49.124  0.00  0.00           C 0
+ATOM  15833  OE1 GLN D 289      19.945  38.606  50.036  0.56  1.07           O 0
+ATOM  15834  NE2 GLN D 289      19.912  39.403  52.153  0.71  3.28           N 0
+HETATM18299  CBD HEM D 682      15.534  37.500  57.962  0.00  0.00           C 0
+ATOM  16856  CD2 LEU D 408       5.720  38.854  48.127  0.00  0.00           C 0
+ATOM  16855  CD1 LEU D 408       4.395  36.715  48.066  0.00  0.00           C 0
+ATOM  15847    O VAL D 291      14.582  38.811  47.339  0.00  0.00           O 0
+ATOM  15880  CG2 VAL D 295       9.089  40.879  48.781  0.00  0.00           C 0
+ATOM  15869    O LEU D 294       8.887  39.249  46.239  0.70  1.07           O 0
+HETATM18279  C1B HEM D 682       8.205  39.276  53.975  0.00  0.00           C 0
+ATOM  15192    O PHE D 210      19.137  38.906  56.746  0.59  1.07           O 0
+HETATM18272  C4A HEM D 682       9.260  37.294  54.907  0.00  0.00           C 0
+HETATM18303   NA HEM D 682      10.113  37.928  55.781  0.76  1.09           N 0
+ATOM  16864  CD2 TYR D 409       7.862  35.749  44.419  0.00  0.00           C 0
+ATOM  16866  CE2 TYR D 409       6.868  34.787  44.704  0.00  0.00           C 0
+ATOM  15873  CD2 LEU D 294      11.170  35.402  45.169  0.00  0.00           C 0
+TER
+END

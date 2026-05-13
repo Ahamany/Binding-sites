@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0409
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8548
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4963
+HEADER 5  - Mean B-factor of pocket residues  : 0.3991
+HEADER 6  - Hydrophobicity Score              : 17.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.6084
+HEADER 10 - Pocket volume (convex hull)       : 6.9012
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7368
+ATOM   5644   CE MET B 163      73.149  39.263  16.279  0.00  0.00           C 0
+ATOM   8085    O TYR B 460      69.622  38.540  15.818  0.80  1.07           O 0
+ATOM   5633    O PRO B 162      70.631  42.007  17.628  0.00  0.00           O 0
+ATOM   8080   CE LYS B 459      68.534  43.423  14.572  0.00  0.00           C 0
+ATOM   8048    O ARG B 456      70.137  42.004  10.931  0.69  4.29           O 0
+ATOM   5691   CG GLU B 170      77.522  48.279  14.116  0.00  0.00           C 0
+ATOM   5695    N LEU B 171      78.241  44.292  14.986  0.68  1.09           N 0
+ATOM   8051   CD ARG B 456      75.738  41.357  10.353  0.00  0.00           C 0
+ATOM   8054  NH1 ARG B 456      78.346  42.345  10.828  0.59  9.84           N 0
+ATOM   5698    O LEU B 171      80.193  44.161  13.217  0.62  3.21           O 0
+ATOM   5634   CB PRO B 162      73.279  43.674  16.424  0.00  0.00           C 0
+ATOM   8079   CD LYS B 459      67.770  43.743  13.252  0.00  0.00           C 0
+ATOM   5635   CG PRO B 162      73.851  45.085  16.336  0.00  0.00           C 0
+ATOM   8049   CB ARG B 456      73.229  41.293   9.932  0.00  0.00           C 0
+ATOM   5702  CD2 LEU B 171      75.704  42.177  14.914  0.00  0.00           C 0
+ATOM   8046   CA ARG B 456      71.905  40.585  10.232  0.00  0.00           C 0
+TER
+END

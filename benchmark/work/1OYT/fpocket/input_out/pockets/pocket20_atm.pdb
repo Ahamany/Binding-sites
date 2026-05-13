@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.0561
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.2582
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7308
+HEADER 5  - Mean B-factor of pocket residues  : 0.3194
+HEADER 6  - Hydrophobicity Score              : 36.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.4656
+HEADER 10 - Pocket volume (convex hull)       : 8.6098
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   2120  CE2 PHE H 232      21.211   8.717  33.485  0.00  0.00           C 0
+ATOM   1236  NH2 ARG H 126      22.928   9.634  36.698  0.00  0.00           N 0
+ATOM   2118  CD2 PHE H 232      20.328   7.807  32.867  0.00  0.00           C 0
+ATOM   2128   CD ARG H 233      22.835   2.945  34.040  0.00  0.00           C 0
+ATOM   1229    O ARG H 126      17.269  10.951  35.606  0.59  1.07           O 0
+ATOM   1258    N ALA H 129A     15.057   8.949  36.243  0.00  0.00           N 0
+ATOM   1262   CB ALA H 129A     15.436   9.860  38.479  0.00  0.00           C 0
+ATOM   1231   CG ARG H 126      20.367  11.611  36.337  0.00  0.00           C 0
+ATOM   1257   CB ALA H 129      16.487   7.814  33.696  0.00  0.00           C 0
+ATOM   2103  NE2 HIS H 230      18.143   2.695  33.651  0.00  0.00           N 0
+ATOM   2102  CE1 HIS H 230      18.433   3.649  32.783  0.00  0.00           C 0
+ATOM   1259   CA ALA H 129A     14.747   8.769  37.648  0.00  0.00           C 0
+ATOM   1255    C ALA H 129      14.651   8.041  35.364  0.00  0.00           C 0
+ATOM   2127   CG ARG H 233      21.830   2.906  32.924  0.00  0.00           C 0
+ATOM   1256    O ALA H 129      13.978   7.073  35.680  0.57  2.14           O 0
+ATOM   1281   CB LEU H 130      13.464   3.958  34.957  0.00  0.00           C 0
+ATOM   1283  CD1 LEU H 130      15.266   4.187  33.317  0.00  0.00           C 0
+ATOM   1280    O LEU H 130      12.693   3.173  37.423  0.26  9.64           O 0
+TER
+END

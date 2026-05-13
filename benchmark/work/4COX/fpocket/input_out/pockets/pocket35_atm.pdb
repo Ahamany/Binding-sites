@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0289
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9617
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6801
+HEADER 5  - Mean B-factor of pocket residues  : 0.2437
+HEADER 6  - Hydrophobicity Score              : 16.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.6354
+HEADER 10 - Pocket volume (convex hull)       : 6.3823
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   5813   CB ARG B 185      93.420  27.794   2.439  0.00  0.00           C 0
+ATOM   5824   CB GLU B 186      94.018  23.270   1.809  0.00  0.00           C 0
+ATOM   5814   CG ARG B 185      92.779  28.347   3.670  0.00  0.00           C 0
+ATOM   5820    N GLU B 186      92.823  25.404   1.395  0.00  0.00           N 0
+ATOM   5823    O GLU B 186      90.856  23.645   1.835  0.31  1.07           O 0
+ATOM   5847  CD1 ILE B 188      89.085  22.412   5.835  0.00  0.00           C 0
+ATOM   7918    O ARG B 438      88.239  26.836   4.198  0.65  2.14           O 0
+ATOM   7919   CB ARG B 438      88.974  28.101   6.449  0.00  0.00           C 0
+ATOM   5845  CG1 ILE B 188      89.418  21.808   4.489  0.00  0.00           C 0
+ATOM   7921   CD ARG B 438      90.847  29.200   7.708  0.00  0.00           C 0
+ATOM   7920   CG ARG B 438      89.340  29.038   7.590  0.00  0.00           C 0
+ATOM   7924  NH1 ARG B 438      91.805  28.798  10.398  0.00  0.00           N 0
+ATOM   7913    C GLY B 437      86.653  26.115   7.722  0.00  0.00           C 0
+ATOM   7914    O GLY B 437      86.766  25.234   6.882  0.00  0.00           O 0
+ATOM   8324   SD MET B 487      88.207  27.831  11.614  0.00  0.00           S 0
+ATOM   8325   CE MET B 487      88.239  26.371  12.650  0.00  0.00           C 0
+ATOM   7912   CA GLY B 437      86.135  25.809   9.109  0.00  0.00           C 0
+ATOM   7910    O GLY B 436      86.360  24.135  11.286  0.00  0.00           O 0
+TER
+END

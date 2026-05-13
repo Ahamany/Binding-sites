@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : 0.0176
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.5970
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4149
+HEADER 5  - Mean B-factor of pocket residues  : 0.1682
+HEADER 6  - Hydrophobicity Score              : 54.7500
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 104.3790
+HEADER 10 - Pocket volume (convex hull)       : 1.4531
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5789
+ATOM  15543    O LYS D 253      24.903  47.596  37.594  0.58  1.07           O 0
+ATOM  15818    O VAL D 287      23.370  44.335  44.022  0.66  7.50           O 0
+ATOM  15968  CD1 LEU D 306      22.388  48.749  39.861  0.00  0.00           C 0
+ATOM  15471  CD2 LEU D 244      25.374  42.174  40.733  0.00  0.00           C 0
+ATOM  15537   CG LEU D 252      27.635  48.124  41.942  0.00  0.00           C 0
+ATOM  15468   CB LEU D 244      27.563  43.136  41.100  0.00  0.00           C 0
+ATOM  15467    O LEU D 244      28.116  45.279  39.216  0.65  1.07           O 0
+ATOM  15536   CB LEU D 252      27.359  48.742  40.555  0.00  0.00           C 0
+ATOM  15966   CB LEU D 306      22.048  50.318  41.757  0.00  0.00           C 0
+ATOM  15372    O ILE D 233      25.375  45.420  45.388  0.00  0.00           O 0
+ATOM  15967   CG LEU D 306      22.835  50.072  40.463  0.00  0.00           C 0
+ATOM  15634   CD PRO D 264      22.605  45.413  37.296  0.00  0.00           C 0
+ATOM  15816   CA VAL D 287      21.547  43.699  42.594  0.00  0.00           C 0
+ATOM  15815    N VAL D 287      21.404  42.979  41.327  0.00  0.00           N 0
+ATOM  15375  CG2 ILE D 233      25.005  48.486  46.404  0.00  0.00           C 0
+ATOM  15931    O ALA D 302      19.658  49.071  44.045  0.23  6.43           O 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0015
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1369
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6760
+HEADER 5  - Mean B-factor of pocket residues  : 0.2988
+HEADER 6  - Hydrophobicity Score              : 30.1000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 307.9250
+HEADER 10 - Pocket volume (convex hull)       : 8.5779
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2043  CG2 VAL A1057     -38.523  64.201   4.432  0.00  0.00           C 0
+ATOM   2036    O GLY A1056     -37.028  66.298   7.489  0.88  1.07           O 0
+ATOM   2035    C GLY A1056     -36.995  66.832   6.409  0.00  0.00           C 0
+ATOM   2028    O ASN A1055     -38.985  68.522   4.044  0.43  3.21           O 0
+ATOM   2034   CA GLY A1056     -37.403  68.283   6.314  0.00  0.00           C 0
+ATOM   1743   CA TYR A1018     -40.571  66.562  14.552  0.00  0.00           C 0
+ATOM   1737    O ILE A1017     -40.764  66.207  11.774  0.00  0.00           O 0
+ATOM   1754    N LYS A1019     -41.461  67.746  16.459  0.53  5.47           N 0
+ATOM   1759   CG LYS A1019     -43.104  70.352  16.899  0.00  0.00           C 0
+ATOM   1913  CD1 LEU A1039     -41.053  72.299  10.198  0.00  0.00           C 0
+ATOM   1941   NZ LYS A1043     -40.465  71.420   6.980  0.73  9.84           N 0
+ATOM   1914  CD2 LEU A1039     -42.951  72.627   8.601  0.00  0.00           C 0
+ATOM   1812  CE2 TYR A1025     -41.783  72.445  13.509  0.00  0.00           C 0
+ATOM   1729   CB LYS A1016     -39.688  63.302   8.908  0.00  0.00           C 0
+ATOM   1731   CD LYS A1016     -41.159  62.214   7.176  0.00  0.00           C 0
+ATOM   1740  CG2 ILE A1017     -39.204  69.308  11.788  0.00  0.00           C 0
+ATOM   1734    N ILE A1017     -38.347  65.889  10.334  0.00  0.00           N 0
+ATOM   1738   CB ILE A1017     -38.705  68.320  10.765  0.00  0.00           C 0
+TER
+END

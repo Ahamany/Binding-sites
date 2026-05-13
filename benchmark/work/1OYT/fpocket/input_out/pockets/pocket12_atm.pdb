@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0003
+HEADER 1  - Drug Score                        : 0.0039
+HEADER 2  - Number of alpha spheres           :    36
+HEADER 3  - Mean alpha-sphere radius          : 4.0097
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5665
+HEADER 5  - Mean B-factor of pocket residues  : 0.4186
+HEADER 6  - Hydrophobicity Score              : 2.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 468.6756
+HEADER 10 - Pocket volume (convex hull)       : 37.4505
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 14.5000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   2156   CD LYS H 236      28.810   9.717  30.713  0.00  0.00           C 0
+ATOM   2157   CE LYS H 236      28.739  10.746  31.828  0.00  0.00           C 0
+ATOM   1235  NH1 ARG H 126      24.501  10.597  35.347  0.00  0.00           N 0
+ATOM   2158   NZ LYS H 236      29.626  10.377  32.960  0.60  8.75           N 0
+ATOM   2155   CG LYS H 236      27.858  10.060  29.574  0.00  0.00           C 0
+ATOM   2114    O PHE H 232      22.167   6.996  30.102  0.36  2.14           O 0
+ATOM   2125    O ARG H 233      24.926   4.544  30.311  0.00  0.00           O 0
+ATOM   2150    N LYS H 236      25.771   8.639  27.461  0.54  1.09           N 0
+ATOM   2132  NH2 ARG H 233      25.155   2.588  35.576  0.00  0.00           N 0
+ATOM   2128   CD ARG H 233      22.835   2.945  34.040  0.00  0.00           C 0
+ATOM   2123   CA ARG H 233      22.669   4.472  31.087  0.00  0.00           C 0
+ATOM   2119  CE1 PHE H 232      20.945  10.233  31.619  0.00  0.00           C 0
+ATOM   1236  NH2 ARG H 126      22.928   9.634  36.698  0.00  0.00           N 0
+ATOM   2120  CE2 PHE H 232      21.211   8.717  33.485  0.00  0.00           C 0
+ATOM   2147   CD LYS H 235      21.067  11.068  27.158  0.00  0.00           C 0
+ATOM   2146   CG LYS H 235      22.184  10.234  26.601  0.00  0.00           C 0
+ATOM   2188  OE1 GLN H 239      23.834  14.364  23.650  0.55  6.43           O 0
+ATOM   2185   CB GLN H 239      26.187  12.556  24.063  0.00  0.00           C 0
+ATOM   2151   CA LYS H 236      27.064   9.308  27.264  0.00  0.00           C 0
+ATOM   2144    O LYS H 235      24.975   9.489  25.548  0.00  0.00           O 0
+ATOM   2148   CE LYS H 235      20.590  12.039  26.089  0.00  0.00           C 0
+ATOM   2143    C LYS H 235      24.818   8.799  26.547  0.00  0.00           C 0
+ATOM   2121   CZ PHE H 232      21.509   9.911  32.854  0.00  0.00           C 0
+ATOM   1230   CB ARG H 126      20.150  12.342  35.025  0.00  0.00           C 0
+ATOM   1233   NE ARG H 126      22.829  11.890  36.256  0.00  0.00           N 0
+ATOM   2145   CB LYS H 235      22.515   9.016  27.462  0.00  0.00           C 0
+TER
+END

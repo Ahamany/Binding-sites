@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1270
+HEADER 1  - Drug Score                        : 0.0175
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0539
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6171
+HEADER 5  - Mean B-factor of pocket residues  : 0.2632
+HEADER 6  - Hydrophobicity Score              : 33.2500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.8827
+HEADER 10 - Pocket volume (convex hull)       : 3.6062
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 18.0000
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.9500
+ATOM   1015   CG LEU H  99      22.428 -10.143  23.754  0.00  0.00           C 0
+ATOM   1003   CA ASN H  98      24.431 -11.576  27.817  0.00  0.00           C 0
+ATOM   1606  CD1 ILE H 174      21.541 -16.029  29.191  0.00  0.00           C 0
+ATOM    996    O GLU H  97A     25.297 -14.088  26.997  0.56  7.50           O 0
+ATOM    587   OH TYR H  60A     23.815 -15.093  21.005  0.60  1.07           O 0
+ATOM   1976   CG TRP H 215      18.152 -10.306  26.265  0.00  0.00           C 0
+ATOM   1975   CB TRP H 215      17.704 -10.668  24.864  0.00  0.00           C 0
+ATOM   1016  CD1 LEU H  99      21.018 -10.053  23.098  0.00  0.00           C 0
+ATOM   1978  CD2 TRP H 215      18.006 -11.103  27.449  0.00  0.00           C 0
+ATOM   1004    C ASN H  98      23.865 -10.358  27.102  0.00  0.00           C 0
+ATOM   1005    O ASN H  98      22.885  -9.777  27.549  0.00  0.00           O 0
+ATOM   1605  CG2 ILE H 174      21.688 -13.366  30.433  0.00  0.00           C 0
+ATOM   1981  CE3 TRP H 215      17.410 -12.342  27.720  0.00  0.00           C 0
+ATOM   1994   CG GLU H 217      15.509 -16.594  27.855  0.00  0.00           C 0
+ATOM   1988    O GLY H 216      14.998 -14.476  24.810  0.48  3.21           O 0
+ATOM   1604  CG1 ILE H 174      20.385 -15.504  29.979  0.00  0.00           C 0
+ATOM   1997  OE2 GLU H 217      16.820 -17.982  29.292  0.85  4.29           O 0
+TER
+END

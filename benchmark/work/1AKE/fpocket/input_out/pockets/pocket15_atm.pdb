@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0563
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9405
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5907
+HEADER 5  - Mean B-factor of pocket residues  : 0.2051
+HEADER 6  - Hydrophobicity Score              : 19.1111
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 217.2016
+HEADER 10 - Pocket volume (convex hull)       : 7.7673
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM    124    N PHE A  19      18.249  55.451  27.639  0.70  1.09           N 0
+ATOM    123  NE2 GLN A  18      18.775  56.322  22.023  0.20  7.66           N 0
+ATOM    158  OE1 GLU A  22      17.363  60.191  26.740  0.00  0.00           O 0
+ATOM    119   CB GLN A  18      19.663  55.642  24.704  0.00  0.00           C 0
+ATOM    128   CB PHE A  19      16.077  55.343  28.905  0.00  0.00           C 0
+ATOM    125   CA PHE A  19      17.474  56.050  28.712  0.00  0.00           C 0
+ATOM   1563  CG1 VAL A 202      11.238  52.354  24.054  0.00  0.00           C 0
+ATOM   1591   CG ARG A 206      11.935  54.435  29.920  0.00  0.00           C 0
+ATOM   1595  NH1 ARG A 206      12.338  57.978  28.402  0.00  0.00           N 0
+ATOM   1592   CD ARG A 206      11.129  55.634  29.476  0.00  0.00           C 0
+ATOM   1590   CB ARG A 206      11.196  53.246  29.421  0.00  0.00           C 0
+ATOM     97    O THR A  15      17.270  52.795  25.123  0.54  5.36           O 0
+ATOM    100  CG2 THR A  15      14.890  51.418  22.995  0.00  0.00           C 0
+ATOM   1057  OD1 ASN A 138      12.777  53.462  20.329  0.00  0.00           O 0
+ATOM    109  NE2 GLN A  16      14.220  51.378  28.575  0.70  1.09           N 0
+ATOM    108  OE1 GLN A  16      13.285  50.464  26.849  0.68  1.07           O 0
+ATOM    998    O VAL A 132      16.814  53.564  18.478  0.41  3.21           O 0
+TER
+END

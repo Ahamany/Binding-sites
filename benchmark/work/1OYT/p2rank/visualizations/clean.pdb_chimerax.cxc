@@ -1,0 +1,31 @@
+open data/clean.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=1779 @@serial_number=1780 @@serial_number=1783 @@serial_number=613 @@serial_number=614 @@serial_number=431 @@serial_number=441 @@serial_number=553 @@serial_number=1801 @@serial_number=1785 @@serial_number=1776 @@serial_number=1784 @@serial_number=551 @@serial_number=632 @@serial_number=1772 @@serial_number=1771 @@serial_number=1775 @@serial_number=423 @@serial_number=435 @@serial_number=1988 @@serial_number=1998 @@serial_number=1999 @@serial_number=2000 @@serial_number=2001 @@serial_number=2007 @@serial_number=1800 @@serial_number=1968 @@serial_number=1972 @@serial_number=1973 @@serial_number=1975 @@serial_number=1985 @@serial_number=1766 @@serial_number=1768 @@serial_number=1769 @@serial_number=1963 @@serial_number=1763 @@serial_number=1767 @@serial_number=1770 @@serial_number=583 @@serial_number=585 @@serial_number=610 @@serial_number=581 @@serial_number=547 @@serial_number=584 @@serial_number=586 @@serial_number=1015 @@serial_number=1016 @@serial_number=1981 @@serial_number=1986 @@serial_number=1974 @@serial_number=2067
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=1280 @@serial_number=1281 @@serial_number=1294 @@serial_number=1509 @@serial_number=1661 @@serial_number=1532 @@serial_number=1514 @@serial_number=1284 @@serial_number=2101 @@serial_number=2103 @@serial_number=1533 @@serial_number=1534 @@serial_number=1535
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1456 @@serial_number=733 @@serial_number=299 @@serial_number=301 @@serial_number=273 @@serial_number=745 @@serial_number=287 @@serial_number=302 @@serial_number=305 @@serial_number=1156 @@serial_number=288 @@serial_number=306 @@serial_number=727 @@serial_number=1159 @@serial_number=743
+color pocket3_atoms color_pocket3
+
+
+
+open data/clean.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

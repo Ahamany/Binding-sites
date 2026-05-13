@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    85:
+HEADER 0  - Pocket Score                      : -0.1438
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.9569
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6125
+HEADER 5  - Mean B-factor of pocket residues  : 0.2898
+HEADER 6  - Hydrophobicity Score              : 24.1111
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 353.1913
+HEADER 10 - Pocket volume (convex hull)       : 31.0999
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM   9887   CA TYR C 122      48.411  53.315  71.007  0.00  0.00           C 0
+ATOM   9882    C SER C 121      48.831  50.950  71.204  0.00  0.00           C 0
+ATOM   9884   CB SER C 121      48.129  49.318  72.968  0.00  0.00           C 0
+ATOM  13255   NZ LYS C 532      44.588  48.235  69.213  0.46  8.75           N 0
+ATOM   9883    O SER C 121      48.578  50.784  70.022  0.57  1.07           O 0
+ATOM   9909    O ILE C 124      46.713  51.256  66.712  0.50  9.64           O 0
+ATOM   9886    N TYR C 122      48.873  52.159  71.758  0.00  0.00           N 0
+ATOM  11939  CD1 PHE C 371      44.189  48.191  74.728  0.00  0.00           C 0
+ATOM  11944    N GLN C 372      40.946  48.635  72.180  0.80  2.19           N 0
+ATOM  11934   CA PHE C 371      41.280  49.772  74.324  0.00  0.00           C 0
+ATOM  11952  NE2 GLN C 372      38.311  50.377  70.462  0.33  6.56           N 0
+ATOM  11933    N PHE C 371      40.484  50.845  74.910  0.27  2.19           N 0
+ATOM  11927    O GLN C 370      42.262  52.196  75.351  0.65  9.64           O 0
+ATOM   9862  CG2 THR C 118      46.673  52.337  78.369  0.00  0.00           C 0
+ATOM   9860   CB THR C 118      47.751  53.039  77.532  0.00  0.00           C 0
+ATOM  11922  OE1 GLN C 369      43.809  54.434  80.505  0.50  9.64           O 0
+ATOM  11931  OE1 GLN C 370      40.349  57.577  75.258  0.57  5.36           O 0
+ATOM  11924    N GLN C 370      40.759  53.208  77.270  0.70  2.19           N 0
+ATOM  11949   CG GLN C 372      40.059  49.313  69.190  0.00  0.00           C 0
+ATOM   9859    O THR C 118      48.940  52.717  74.383  0.88  2.14           O 0
+ATOM   9890   CB TYR C 122      48.408  54.577  71.892  0.00  0.00           C 0
+ATOM  11926    C GLN C 370      41.038  51.983  75.354  0.00  0.00           C 0
+ATOM  11928   CB GLN C 370      40.072  54.304  75.154  0.00  0.00           C 0
+ATOM   9857   CA THR C 118      48.379  52.019  76.582  0.00  0.00           C 0
+TER
+END

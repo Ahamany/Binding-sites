@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.0460
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9614
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6032
+HEADER 5  - Mean B-factor of pocket residues  : 0.3172
+HEADER 6  - Hydrophobicity Score              : -3.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 334.9644
+HEADER 10 - Pocket volume (convex hull)       : 21.9428
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   1819  OE1 GLN A 255      30.108  59.935   9.329  0.30  3.21           O 0
+ATOM   2032  ND2 ASN A 282      24.826  61.283   5.389  0.00  0.00           N 0
+ATOM   1833  CG1 ILE A 257      27.341  59.704  11.876  0.00  0.00           C 0
+ATOM   1834  CG2 ILE A 257      25.123  60.692  12.336  0.00  0.00           C 0
+ATOM   1835  CD1 ILE A 257      26.842  58.918  10.688  0.00  0.00           C 0
+ATOM   2029   CB ASN A 282      26.701  61.341   3.787  0.00  0.00           C 0
+ATOM   1908   NZ LYS A 267      33.034  64.845   0.413  0.00  0.00           N 0
+ATOM   1906   CD LYS A 267      33.043  62.331   0.029  0.00  0.00           C 0
+ATOM   2023  OE1 GLU A 281      29.931  62.316  -1.794  0.55  5.36           O 0
+ATOM   2012    O PRO A 280      25.395  61.094  -0.015  0.22  5.36           O 0
+ATOM   2020   CB GLU A 281      27.971  60.260  -0.576  0.00  0.00           C 0
+ATOM   1892  CG2 THR A 265      31.031  58.324   5.280  0.00  0.00           C 0
+ATOM   2026   CA ASN A 282      27.457  59.968   3.692  0.00  0.00           C 0
+ATOM   1891  OG1 THR A 265      33.102  58.684   4.140  0.58  8.57           O 0
+ATOM   2025    N ASN A 282      27.783  59.690   2.284  0.68  3.28           N 0
+ATOM   2021   CG GLU A 281      29.400  60.118  -0.893  0.00  0.00           C 0
+ATOM   2028    O ASN A 282      26.607  58.958   5.662  0.64  2.14           O 0
+ATOM   1904   CB LYS A 267      33.395  59.827   0.295  0.00  0.00           C 0
+TER
+END

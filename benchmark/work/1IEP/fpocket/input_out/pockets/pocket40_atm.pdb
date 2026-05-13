@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.1177
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 4.0140
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5884
+HEADER 5  - Mean B-factor of pocket residues  : 0.2902
+HEADER 6  - Hydrophobicity Score              : 16.8333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 6.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.3168
+HEADER 10 - Pocket volume (convex hull)       : 8.6092
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1879   NE ARG A 457       9.477  54.516  43.456  0.63  3.28           N 0
+ATOM   2050  NE2 GLN A 477       5.012  49.384  44.139  0.00  0.00           N 0
+ATOM   1877   CG ARG A 457       8.137  56.452  44.175  0.00  0.00           C 0
+ATOM   2015  NH1 ARG A 473       3.643  56.250  45.430  0.64  9.84           N 0
+ATOM   2009    O ARG A 473       5.106  51.651  41.539  0.61  2.14           O 0
+ATOM   2012   CD ARG A 473       4.288  55.865  42.716  0.00  0.00           C 0
+ATOM   2010   CB ARG A 473       2.899  53.879  42.088  0.00  0.00           C 0
+ATOM   2031    O TRP A 476       9.133  51.943  42.397  0.56  1.07           O 0
+ATOM   1882  NH2 ARG A 457      10.672  52.952  44.647  0.53  3.28           N 0
+ATOM   2043   CA GLN A 477       8.503  49.287  42.676  0.00  0.00           C 0
+ATOM   2051    N TRP A 478      10.563  49.206  43.968  0.46  2.19           N 0
+ATOM   1855    O ASP A 455       8.971  56.882  48.168  0.62  4.29           O 0
+ATOM   1858  OD1 ASP A 455      10.491  52.706  49.656  0.00  0.00           O 0
+ATOM   1880   CZ ARG A 457      10.377  54.218  44.389  0.00  0.00           C 0
+ATOM   2055   CB TRP A 478      12.375  49.225  45.624  0.00  0.00           C 0
+ATOM   2049  OE1 GLN A 477       6.120  47.626  44.990  0.00  0.00           O 0
+TER
+END

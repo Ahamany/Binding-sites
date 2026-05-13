@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.0429
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8357
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4952
+HEADER 5  - Mean B-factor of pocket residues  : 0.3588
+HEADER 6  - Hydrophobicity Score              : 17.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 248.0602
+HEADER 10 - Pocket volume (convex hull)       : 8.2986
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7368
+ATOM   1119  CD2 LEU A 171      19.258  16.864 -11.567  0.00  0.00           C 0
+ATOM   1108   CG GLU A 170      17.782  17.522 -17.633  0.00  0.00           C 0
+ATOM   1052   CG PRO A 162      21.114  15.338 -14.422  0.00  0.00           C 0
+ATOM   1112    N LEU A 171      16.750  16.817 -13.727  0.72  1.09           N 0
+ATOM   3468   CD ARG A 456      19.314  21.413 -10.791  0.00  0.00           C 0
+ATOM   3466   CB ARG A 456      21.814  21.799 -10.693  0.00  0.00           C 0
+ATOM   1051   CB PRO A 162      21.629  15.244 -12.983  0.00  0.00           C 0
+ATOM   3497   CE LYS A 459      26.497  16.965 -12.680  0.00  0.00           C 0
+ATOM   3502    O TYR A 460      25.285  15.883  -7.803  0.00  0.00           O 0
+ATOM   1061   CE MET A 163      21.681  15.487  -8.574  0.00  0.00           C 0
+ATOM   1050    O PRO A 162      24.224  13.948 -11.245  0.00  0.00           O 0
+ATOM   3465    O ARG A 456      24.873  20.685 -11.367  0.45  9.64           O 0
+ATOM   3463   CA ARG A 456      23.115  21.481  -9.945  0.00  0.00           C 0
+ATOM   3471  NH1 ARG A 456      16.696  20.962 -11.841  0.00  0.00           N 0
+ATOM   1115    O LEU A 171      14.810  18.658 -13.711  0.54  9.64           O 0
+ATOM   3496   CD LYS A 459      27.276  18.260 -13.012  0.00  0.00           C 0
+TER
+END

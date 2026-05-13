@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.1061
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8849
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5698
+HEADER 5  - Mean B-factor of pocket residues  : 0.2757
+HEADER 6  - Hydrophobicity Score              : 32.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 187.6457
+HEADER 10 - Pocket volume (convex hull)       : 1.6298
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   2786    N VAL B 289       8.966  97.064  69.834  0.00  0.00           N 0
+ATOM   2784    O ALA B 288      10.043  98.256  71.404  0.63  1.07           O 0
+ATOM   2783    C ALA B 288       9.071  98.091  70.671  0.00  0.00           C 0
+ATOM   2766   NZ LYS B 285       5.522  92.947  72.383  0.67  9.84           N 0
+ATOM   2792  CG2 VAL B 289       8.385  94.176  69.340  0.00  0.00           C 0
+ATOM   2787   CA VAL B 289      10.015  96.050  69.728  0.00  0.00           C 0
+ATOM   2785   CB ALA B 288       6.757  98.505  71.517  0.00  0.00           C 0
+ATOM   2815   CG GLU B 292      12.121  96.353  73.442  0.00  0.00           C 0
+ATOM   2818  OE2 GLU B 292      11.329  98.222  74.672  0.59  8.57           O 0
+ATOM   3366  CE2 PHE B 359      12.269  91.656  71.103  0.00  0.00           C 0
+ATOM   3367   CZ PHE B 359      13.097  92.045  72.157  0.00  0.00           C 0
+ATOM   2816   CD GLU B 292      12.136  97.269  74.644  0.00  0.00           C 0
+TER
+END

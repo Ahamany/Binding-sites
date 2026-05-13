@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0899
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8781
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5520
+HEADER 5  - Mean B-factor of pocket residues  : 0.3796
+HEADER 6  - Hydrophobicity Score              : 73.1429
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.0786
+HEADER 10 - Pocket volume (convex hull)       : 3.8418
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM    108  CG1 ILE A  43     -45.698  15.080  14.520  0.00  0.00           C 0
+ATOM    109  CG2 ILE A  43     -44.473  15.387  12.366  0.00  0.00           C 0
+ATOM   3338  CG1 VAL A 317     -40.336  17.760  15.804  0.00  0.00           C 0
+ATOM   3339  CG2 VAL A 317     -41.253  15.603  15.111  0.00  0.00           C 0
+ATOM   3357    O GLY A 320     -42.562  23.884  12.581  0.47  6.43           O 0
+ATOM   3365  CD2 PHE A 321     -40.490  22.551  15.953  0.00  0.00           C 0
+ATOM   3390  CD1 LEU A 324     -43.821  25.727  15.948  0.00  0.00           C 0
+ATOM   3367  CE2 PHE A 321     -40.722  21.446  16.740  0.00  0.00           C 0
+ATOM    130   CB ALA A  46     -47.227  20.535  12.244  0.00  0.00           C 0
+ATOM   3355   CA GLY A 320     -41.934  21.857  11.544  0.00  0.00           C 0
+ATOM    104   CA ILE A  43     -46.850  16.274  12.593  0.00  0.00           C 0
+ATOM    106    O ILE A  43     -46.072  17.608  10.771  0.00  0.00           O 0
+ATOM   3336    O VAL A 317     -40.086  19.311  13.253  0.56  2.14           O 0
+ATOM    136  CG1 ILE A  47     -43.276  18.777   9.540  0.00  0.00           C 0
+ATOM   3356    C GLY A 320     -41.642  23.110  12.350  0.00  0.00           C 0
+TER
+END

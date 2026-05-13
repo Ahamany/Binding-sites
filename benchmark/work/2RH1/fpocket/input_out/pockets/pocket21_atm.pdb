@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0789
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0354
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6265
+HEADER 5  - Mean B-factor of pocket residues  : 0.4405
+HEADER 6  - Hydrophobicity Score              : 46.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 260.0027
+HEADER 10 - Pocket volume (convex hull)       : 6.4497
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   1213  CG1 ILE A 182     -26.515  -9.466   1.192  0.00  0.00           C 0
+ATOM   1237  CD2 TYR A 185     -28.923  -5.313   0.866  0.00  0.00           C 0
+ATOM   1162  NH2 ARG A 175     -28.541  -4.184  -4.169  0.00  0.00           N 0
+ATOM   1214  CG2 ILE A 182     -28.387 -10.756   0.226  0.00  0.00           C 0
+ATOM   1166    O ALA A 176     -24.541  -5.308   1.920  0.65  5.36           O 0
+ATOM   1159   NE ARG A 175     -27.867  -2.850  -2.413  0.57  3.28           N 0
+ATOM   1161  NH1 ARG A 175     -30.142  -3.019  -2.963  0.62  9.84           N 0
+ATOM   1232    C TYR A 185     -33.500  -6.328  -0.693  0.00  0.00           C 0
+ATOM   1233    O TYR A 185     -34.322  -5.683  -1.354  0.43  3.21           O 0
+ATOM   1209   CA ILE A 182     -28.905  -8.843   1.800  0.00  0.00           C 0
+ATOM   1211    O ILE A 182     -31.047  -9.109   0.745  0.00  0.00           O 0
+ATOM   1246   CB ALA A 186     -33.661  -9.914  -1.627  0.00  0.00           C 0
+ATOM   1234   CB TYR A 185     -31.165  -5.597  -0.278  0.00  0.00           C 0
+ATOM   1242    N ALA A 186     -33.344  -7.645  -0.776  0.77  1.09           N 0
+ATOM   1243   CA ALA A 186     -34.189  -8.489  -1.622  0.00  0.00           C 0
+TER
+END

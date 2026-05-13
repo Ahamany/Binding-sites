@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 0.0012
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8296
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4994
+HEADER 5  - Mean B-factor of pocket residues  : 0.3531
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.9066
+HEADER 10 - Pocket volume (convex hull)       : 4.1519
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   1314   OH TYR H 134       5.665   7.298  39.479  0.73  9.64           O 0
+ATOM   1863   CG PRO H 204       4.162  11.871  34.379  0.00  0.00           C 0
+ATOM   1875   CZ PHE H 204A      6.877  13.764  37.474  0.00  0.00           C 0
+ATOM   1874  CE2 PHE H 204A      7.192  13.236  36.221  0.00  0.00           C 0
+ATOM    206    O TYR L  14J      1.426   8.537  37.964  0.57  5.36           O 0
+ATOM    218    O ILE L  14K      1.677   8.692  41.870  0.00  0.00           O 0
+ATOM    217    C ILE L  14K      2.218   7.820  41.146  0.00  0.00           C 0
+ATOM    207   CB TYR L  14J      2.855   7.878  35.639  0.00  0.00           C 0
+ATOM   1268   OG SER H 129B     11.295  12.335  37.023  0.77  5.36           O 0
+ATOM   1264   CA SER H 129B     11.136   9.893  37.249  0.00  0.00           C 0
+ATOM   1292  OE1 GLN H 131       8.943   7.059  39.954  0.00  0.00           O 0
+ATOM   1266    O SER H 129B      9.346   8.317  37.336  0.34  3.21           O 0
+ATOM   1312  CE2 TYR H 134       6.339   6.703  37.257  0.00  0.00           C 0
+ATOM   1267   CB SER H 129B     10.684  11.154  36.511  0.00  0.00           C 0
+ATOM   1276  CD2 LEU H 129C      7.900   9.150  33.728  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0136
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0595
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5340
+HEADER 5  - Mean B-factor of pocket residues  : 0.2235
+HEADER 6  - Hydrophobicity Score              : 11.2000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 203.1040
+HEADER 10 - Pocket volume (convex hull)       : 0.9219
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   2190  OG1 THR H  70      27.025  37.429  58.407  0.53  5.36           O 0
+ATOM   2271  OE1 GLN H  81      31.550  37.794  53.687  0.73  7.50           O 0
+ATOM   2189   CB THR H  70      25.766  37.510  57.754  0.00  0.00           C 0
+ATOM   2191  CG2 THR H  70      25.222  38.933  57.848  0.00  0.00           C 0
+ATOM   1773   CD LYS H  19      29.114  40.233  50.822  0.00  0.00           C 0
+ATOM   2249   CG TYR H  79      23.582  38.926  53.723  0.00  0.00           C 0
+ATOM   2253  CE2 TYR H  79      22.872  40.779  52.368  0.00  0.00           C 0
+ATOM   2251  CD2 TYR H  79      23.500  39.538  52.471  0.00  0.00           C 0
+ATOM   2254   CZ TYR H  79      22.336  41.392  53.506  0.00  0.00           C 0
+ATOM   2268   CB GLN H  81      30.142  35.563  52.663  0.00  0.00           C 0
+ATOM   2248   CB TYR H  79      24.260  37.583  53.861  0.00  0.00           C 0
+ATOM   1772   CG LYS H  19      28.879  38.773  50.547  0.00  0.00           C 0
+ATOM   2250  CD1 TYR H  79      23.048  39.536  54.867  0.00  0.00           C 0
+ATOM   2252  CE1 TYR H  79      22.419  40.775  54.756  0.00  0.00           C 0
+ATOM   2173    O THR H  68      28.025  33.957  55.473  0.38  1.07           O 0
+ATOM   2264    N GLN H  81      28.098  34.332  52.461  0.00  0.00           N 0
+TER
+END

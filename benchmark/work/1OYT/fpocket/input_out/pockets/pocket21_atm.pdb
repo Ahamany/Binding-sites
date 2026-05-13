@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.0586
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0622
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7512
+HEADER 5  - Mean B-factor of pocket residues  : 0.1770
+HEADER 6  - Hydrophobicity Score              : 15.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.7538
+HEADER 10 - Pocket volume (convex hull)       : 1.4729
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2057  CE2 TYR H 225       9.074 -12.090  35.068  0.00  0.00           C 0
+ATOM   2059   OH TYR H 225       6.950 -12.035  36.163  0.80  2.14           O 0
+ATOM   2038    O GLY H 223       9.433 -15.653  34.238  0.59  5.36           O 0
+ATOM   1550  CG1 VAL H 167       9.523 -10.664  38.852  0.00  0.00           C 0
+ATOM   1548    O VAL H 167      12.518 -11.869  38.016  0.48  1.07           O 0
+ATOM   1570    O ASP H 170      13.943 -16.421  38.466  0.00  0.00           O 0
+ATOM   1579   CB SER H 171      12.430 -14.171  35.331  0.00  0.00           C 0
+ATOM   1571   CB ASP H 170      14.025 -14.406  40.611  0.00  0.00           C 0
+ATOM   1569    C ASP H 170      14.259 -15.237  38.300  0.00  0.00           C 0
+ATOM   1546   CA VAL H 167      11.870 -10.428  39.820  0.00  0.00           C 0
+ATOM   1551  CG2 VAL H 167       9.882  -9.640  41.130  0.00  0.00           C 0
+ATOM   1574  OD2 ASP H 170      14.087 -13.839  42.925  0.59  8.57           O 0
+ATOM   1576   CA SER H 171      13.292 -15.224  36.073  0.00  0.00           C 0
+ATOM   1575    N SER H 171      14.004 -14.582  37.171  0.00  0.00           N 0
+TER
+END

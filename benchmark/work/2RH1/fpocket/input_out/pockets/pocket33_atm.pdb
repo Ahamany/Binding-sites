@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : -0.1984
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.2034
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6145
+HEADER 5  - Mean B-factor of pocket residues  : 0.3473
+HEADER 6  - Hydrophobicity Score              : 26.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 217.4221
+HEADER 10 - Pocket volume (convex hull)       : 2.7714
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.5789
+ATOM   1668  NH2 ARG A1008     -30.823  50.660  12.823  0.50  5.47           N 0
+ATOM   2065   CD LYS A1060     -29.500  53.953   9.419  0.00  0.00           C 0
+ATOM   2923   NZ LYS A 267     -34.904  49.777  10.290  0.00  0.00           N 0
+ATOM   1665   NE ARG A1008     -30.368  52.534  14.093  0.66  6.56           N 0
+ATOM   2063   CB LYS A1060     -30.074  56.151   8.215  0.00  0.00           C 0
+ATOM   1724  CD2 LEU A1015     -33.595  58.783   9.033  0.00  0.00           C 0
+ATOM   1723  CD1 LEU A1015     -35.240  57.576   7.626  0.00  0.00           C 0
+ATOM   1701    O LEU A1013     -35.397  57.511  13.670  0.00  0.00           O 0
+ATOM   1722   CG LEU A1015     -35.065  58.555   8.749  0.00  0.00           C 0
+ATOM   1702   CB LEU A1013     -32.419  57.214  14.060  0.00  0.00           C 0
+ATOM   1698    N LEU A1013     -33.841  57.245  16.032  0.59  2.19           N 0
+ATOM   1704  CD1 LEU A1013     -30.400  57.161  12.611  0.00  0.00           C 0
+ATOM   1705  CD2 LEU A1013     -32.304  58.573  11.978  0.00  0.00           C 0
+ATOM   2064   CG LYS A1060     -29.325  55.466   9.387  0.00  0.00           C 0
+ATOM   1663   CG ARG A1008     -30.325  54.077  15.936  0.00  0.00           C 0
+ATOM   1661    O ARG A1008     -32.311  54.329  18.575  0.00  0.00           O 0
+TER
+END

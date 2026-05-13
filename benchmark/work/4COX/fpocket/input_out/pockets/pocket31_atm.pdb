@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0129
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7985
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4410
+HEADER 5  - Mean B-factor of pocket residues  : 0.1885
+HEADER 6  - Hydrophobicity Score              : -8.7273
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.2727
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.2071
+HEADER 10 - Pocket volume (convex hull)       : 9.0431
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM   9293  CG2 THR C  50      44.056  66.172  46.999  0.00  0.00           C 0
+ATOM  17983    O GLY D 551      38.537  63.138  48.015  0.00  0.00           O 0
+ATOM  16082  OE1 GLU D 319      37.535  66.937  45.651  0.54  8.57           O 0
+ATOM  16093  NE2 HIS D 320      41.088  62.776  45.458  0.82  2.19           N 0
+ATOM   9280   CE MET C  48      42.096  64.014  49.959  0.00  0.00           C 0
+ATOM  17988    N GLU D 553      37.277  66.346  51.387  0.48  5.47           N 0
+ATOM   9343   CG LYS C  56      44.948  68.103  50.593  0.00  0.00           C 0
+ATOM   9345   CE LYS C  56      43.806  68.525  52.787  0.00  0.00           C 0
+ATOM  17985   CA GLY D 552      38.377  64.424  50.375  0.00  0.00           C 0
+ATOM   9357   CB ASP C  58      44.210  63.589  55.819  0.00  0.00           C 0
+ATOM   9344   CD LYS C  56      44.729  67.620  52.021  0.00  0.00           C 0
+ATOM  17953   CB PRO D 547      38.735  64.772  55.163  0.00  0.00           C 0
+ATOM   9359  OD1 ASP C  58      42.503  64.925  56.898  0.49  2.14           O 0
+ATOM  17956    N SER D 548      40.065  62.323  54.282  0.00  0.00           N 0
+ATOM  17960   CB SER D 548      42.313  61.582  53.605  0.00  0.00           C 0
+ATOM  17995  OE1 GLU D 553      38.052  67.971  54.804  0.67  9.64           O 0
+ATOM  17992   CB GLU D 553      36.600  68.440  52.438  0.00  0.00           C 0
+TER
+END

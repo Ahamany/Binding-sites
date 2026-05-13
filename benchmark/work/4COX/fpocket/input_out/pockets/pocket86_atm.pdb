@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    86:
+HEADER 0  - Pocket Score                      : -0.1505
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.2209
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6109
+HEADER 5  - Mean B-factor of pocket residues  : 0.3281
+HEADER 6  - Hydrophobicity Score              : 10.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.6800
+HEADER 10 - Pocket volume (convex hull)       : 3.6266
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM  10419  CD2 PHE C 187      77.655  31.085  69.051  0.00  0.00           C 0
+ATOM  12128   CB PRO C 392      73.367  27.111  68.178  0.00  0.00           C 0
+ATOM  12163  OD1 ASN C 396      76.170  22.648  71.275  0.00  0.00           O 0
+ATOM  10421  CE2 PHE C 187      76.628  31.182  69.972  0.00  0.00           C 0
+ATOM  12144  OG1 THR C 394      76.642  22.566  67.457  0.00  0.00           O 0
+ATOM  12131    N ASP C 393      74.976  26.786  65.583  0.71  1.09           N 0
+ATOM  10417   CG PHE C 187      77.396  30.971  67.697  0.00  0.00           C 0
+ATOM  12138  OD2 ASP C 393      77.829  28.524  64.482  0.70  7.50           O 0
+ATOM  10416   CB PHE C 187      78.530  30.955  66.693  0.00  0.00           C 0
+ATOM  12135   CB ASP C 393      76.878  26.359  64.123  0.00  0.00           C 0
+ATOM  12449  NE2 GLN C 429      72.931  24.875  70.759  0.83  1.09           N 0
+ATOM  12453    O ILE C 430      72.692  29.057  72.125  0.00  0.00           O 0
+ATOM  10422   CZ PHE C 187      75.340  31.161  69.552  0.00  0.00           C 0
+ATOM  12455  CG1 ILE C 430      75.352  30.264  73.900  0.00  0.00           C 0
+ATOM  12446   CG GLN C 429      72.870  25.544  73.097  0.00  0.00           C 0
+ATOM  12142    O THR C 394      73.695  23.518  68.006  0.00  0.00           O 0
+TER
+END

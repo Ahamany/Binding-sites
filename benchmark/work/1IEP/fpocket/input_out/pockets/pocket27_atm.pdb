@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.0550
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7268
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5590
+HEADER 5  - Mean B-factor of pocket residues  : 0.4039
+HEADER 6  - Hydrophobicity Score              : 14.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 166.3362
+HEADER 10 - Pocket volume (convex hull)       : 1.0265
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3684
+ATOM   2372    O MET B 237       7.283 113.419  65.974  0.59  3.21           O 0
+ATOM   2371    C MET B 237       8.411 113.878  66.142  0.00  0.00           C 0
+ATOM   2385  OE2 GLU B 238       7.229 117.779  68.109  0.26  7.50           O 0
+ATOM   2267    N MET B 225       8.895 115.777  72.069  0.37  4.37           N 0
+ATOM   2369    N MET B 237       8.918 111.919  67.588  0.00  0.00           N 0
+ATOM   2362    C GLU B 236       9.267 111.614  68.836  0.00  0.00           C 0
+ATOM   2363    O GLU B 236      10.049 112.300  69.492  0.65  1.07           O 0
+ATOM   2931   CD ARG B 307       2.928 112.426  70.891  0.00  0.00           C 0
+ATOM   2932   NE ARG B 307       1.880 112.857  71.813  0.53  7.66           N 0
+ATOM   2268   CA MET B 225       7.964 115.677  73.229  0.00  0.00           C 0
+ATOM   2271   CB MET B 225       7.641 114.206  73.505  0.00  0.00           C 0
+ATOM   2272   CG MET B 225       6.364 113.982  74.294  0.00  0.00           C 0
+ATOM   2274   CE MET B 225       5.398 111.927  72.771  0.00  0.00           C 0
+ATOM   2364   CB GLU B 236       7.537 110.738  70.407  0.00  0.00           C 0
+TER
+END

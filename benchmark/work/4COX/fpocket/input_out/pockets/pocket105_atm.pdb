@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   105:
+HEADER 0  - Pocket Score                      : -0.2131
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0870
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6655
+HEADER 5  - Mean B-factor of pocket residues  : 0.5556
+HEADER 6  - Hydrophobicity Score              : 14.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 356.2310
+HEADER 10 - Pocket volume (convex hull)       : 9.5836
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   9527   CD LYS C  79      51.503  65.809  73.752  0.00  0.00           C 0
+ATOM   9895  CE2 TYR C 122      51.244  57.162  71.715  0.00  0.00           C 0
+ATOM   9528   CE LYS C  79      50.256  65.888  74.631  0.00  0.00           C 0
+ATOM   9897   OH TYR C 122      51.900  58.696  69.962  0.78  7.50           O 0
+ATOM   9560   CD LYS C  83      56.716  61.616  75.247  0.00  0.00           C 0
+ATOM   9562   NZ LYS C  83      55.556  61.757  77.597  0.09  4.37           N 0
+ATOM   9840   OH TYR C 115      54.895  57.175  78.207  0.61  3.21           O 0
+ATOM   9863    N SER C 119      50.442  53.175  75.998  0.77  1.09           N 0
+ATOM   9893  CD2 TYR C 122      50.385  56.151  72.175  0.00  0.00           C 0
+ATOM   9860   CB THR C 118      47.751  53.039  77.532  0.00  0.00           C 0
+ATOM   9861  OG1 THR C 118      48.751  53.581  78.415  0.75  7.50           O 0
+ATOM   9858    C THR C 118      49.280  52.686  75.567  0.00  0.00           C 0
+ATOM   9890   CB TYR C 122      48.408  54.577  71.892  0.00  0.00           C 0
+ATOM   9859    O THR C 118      48.940  52.717  74.383  0.88  2.14           O 0
+ATOM   9864   CA SER C 119      51.367  53.860  75.081  0.00  0.00           C 0
+ATOM   9837  CE1 TYR C 115      52.820  56.538  79.269  0.00  0.00           C 0
+ATOM   9867   CB SER C 119      52.606  54.352  75.834  0.00  0.00           C 0
+TER
+END

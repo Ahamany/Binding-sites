@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0132
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8571
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4385
+HEADER 5  - Mean B-factor of pocket residues  : 0.2579
+HEADER 6  - Hydrophobicity Score              : 47.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.8511
+HEADER 10 - Pocket volume (convex hull)       : 6.8336
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   1519   CA GLU H 164      11.151  -5.007  39.908  0.00  0.00           C 0
+ATOM   1527    N ARG H 165      13.582  -5.211  39.796  0.00  0.00           N 0
+ATOM   1514    O VAL H 163      11.523  -4.390  37.211  0.64  7.50           O 0
+ATOM   1298   CB ALA H 132       8.911  -1.715  39.936  0.00  0.00           C 0
+ATOM   1661   CB PHE H 181      15.070  -2.134  32.902  0.00  0.00           C 0
+ATOM   1509  CG2 ILE H 162      10.531  -1.166  35.118  0.00  0.00           C 0
+ATOM   1537  NH2 ARG H 165      17.469  -2.856  36.089  0.62  6.56           N 0
+ATOM   1280    O LEU H 130      12.693   3.173  37.423  0.26  9.64           O 0
+ATOM   1532   CG ARG H 165      15.923  -3.665  38.900  0.00  0.00           C 0
+ATOM   1533   CD ARG H 165      17.221  -2.857  38.926  0.00  0.00           C 0
+ATOM   1294    N ALA H 132       9.342   0.445  38.876  0.00  0.00           N 0
+ATOM   1281   CB LEU H 130      13.464   3.958  34.957  0.00  0.00           C 0
+ATOM   1284  CD2 LEU H 130      13.155   2.966  32.686  0.00  0.00           C 0
+ATOM   2101  CD2 HIS H 230      18.333   1.473  33.050  0.00  0.00           C 0
+ATOM   1283  CD1 LEU H 130      15.266   4.187  33.317  0.00  0.00           C 0
+ATOM   2103  NE2 HIS H 230      18.143   2.695  33.651  0.00  0.00           N 0
+TER
+END

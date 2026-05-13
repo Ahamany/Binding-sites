@@ -1,0 +1,27 @@
+open data/clean.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #b34788
+
+name pocket1_atoms @@serial_number=613 @@serial_number=614 @@serial_number=647 @@serial_number=930 @@serial_number=1694 @@serial_number=1730 @@serial_number=603 @@serial_number=1703 @@serial_number=605 @@serial_number=601 @@serial_number=604 @@serial_number=1802 @@serial_number=1803 @@serial_number=1804 @@serial_number=1805 @@serial_number=1798 @@serial_number=1799 @@serial_number=329 @@serial_number=303 @@serial_number=305 @@serial_number=307 @@serial_number=308 @@serial_number=336 @@serial_number=1833 @@serial_number=296 @@serial_number=297 @@serial_number=298 @@serial_number=300 @@serial_number=301 @@serial_number=302 @@serial_number=280 @@serial_number=281 @@serial_number=1728 @@serial_number=1731 @@serial_number=1726 @@serial_number=1727 @@serial_number=1696 @@serial_number=1732 @@serial_number=898 @@serial_number=1720 @@serial_number=636 @@serial_number=634 @@serial_number=635 @@serial_number=640 @@serial_number=638 @@serial_number=667 @@serial_number=645 @@serial_number=666 @@serial_number=328 @@serial_number=362 @@serial_number=365 @@serial_number=357 @@serial_number=324 @@serial_number=772 @@serial_number=775 @@serial_number=906 @@serial_number=777 @@serial_number=905 @@serial_number=904
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=129 @@serial_number=130 @@serial_number=131 @@serial_number=136 @@serial_number=124 @@serial_number=1131 @@serial_number=141 @@serial_number=145 @@serial_number=147 @@serial_number=1100 @@serial_number=1101 @@serial_number=681 @@serial_number=683 @@serial_number=630 @@serial_number=1129 @@serial_number=639 @@serial_number=384 @@serial_number=387 @@serial_number=388 @@serial_number=390 @@serial_number=657 @@serial_number=659 @@serial_number=697 @@serial_number=695 @@serial_number=352 @@serial_number=356 @@serial_number=353
+color pocket2_atoms color_pocket2
+
+
+
+open data/clean.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

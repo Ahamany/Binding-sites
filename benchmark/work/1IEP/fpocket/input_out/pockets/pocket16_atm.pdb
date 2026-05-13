@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.0104
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7596
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4358
+HEADER 5  - Mean B-factor of pocket residues  : 0.2722
+HEADER 6  - Hydrophobicity Score              : 6.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.1540
+HEADER 10 - Pocket volume (convex hull)       : 7.7912
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM   4122   CB ASP B 455      18.119  62.715  53.934  0.00  0.00           C 0
+ATOM   1851   NZ LYS A 454      18.209  57.996  53.181  0.53  4.37           N 0
+ATOM   1816  OE1 GLU A 450      22.363  57.945  50.358  0.00  0.00           O 0
+ATOM   4125  OD2 ASP B 455      18.097  60.951  55.532  0.00  0.00           O 0
+ATOM   1813   CB GLU A 450      19.952  58.848  48.278  0.00  0.00           C 0
+ATOM   4112    O LYS B 454      16.053  61.842  51.968  0.74  2.14           O 0
+ATOM   1786   CG GLN A 447      21.489  64.485  46.156  0.00  0.00           C 0
+ATOM   1788  OE1 GLN A 447      20.466  65.452  48.100  0.00  0.00           O 0
+ATOM   1814   CG GLU A 450      21.437  58.540  48.244  0.00  0.00           C 0
+ATOM   4121    O ASP B 455      18.889  64.640  52.186  0.73  1.07           O 0
+ATOM   1823   CG LEU A 451      15.856  61.922  46.977  0.00  0.00           C 0
+ATOM   4127   CA TYR B 456      17.310  65.931  50.437  0.00  0.00           C 0
+ATOM   1785   CB GLN A 447      20.303  63.642  45.695  0.00  0.00           C 0
+ATOM   1825  CD2 LEU A 451      15.017  62.350  48.175  0.00  0.00           C 0
+ATOM   1784    O GLN A 447      18.688  61.160  45.487  0.00  0.00           O 0
+TER
+END

@@ -144,6 +144,29 @@ function zoomToPocket(method, rank) {
     ensureViewer().zoomTo(sel, 500);
 }
 
+function renderMetrics(job) {
+    const el = $("#metrics-summary");
+    const metrics = job.metrics || {};
+    const parts = [];
+    for (const method of ["p2rank", "fpocket"]) {
+        const mm = metrics[method];
+        if (!mm || mm.dcc_top1 == null) continue;
+        const tag = `<span class="method-tag ${method}">${method}</span>`;
+        const dcc = mm.dcc_top1.toFixed(2);
+        const verdict = mm.success_top3
+            ? '<span class="ok">✓</span>'
+            : '<span class="fail">✗</span>';
+        parts.push(`${tag} DCC top-1: <strong>${dcc} Å</strong> ${verdict}`);
+    }
+    if (!parts.length) {
+        el.hidden = true;
+        el.innerHTML = "";
+        return;
+    }
+    el.innerHTML = parts.join(" · ");
+    el.hidden = false;
+}
+
 function renderComparisonPanel(job) {
     const summary = $("#comparison-summary");
     const table = $("#comparison-table");
@@ -246,6 +269,7 @@ $("#job-form").addEventListener("submit", async (e) => {
 
     $("#submit-btn").disabled = true;
     $("#download-csv").hidden = true;
+    $("#metrics-summary").hidden = true;
     try {
         setStatus("creating job…", "queued");
         const { job_id } = await createJob(fd);
@@ -261,6 +285,7 @@ $("#job-form").addEventListener("submit", async (e) => {
         currentJobResult = job;
         $("#method-toggles").hidden = false;
         renderComparisonPanel(job);
+        renderMetrics(job);
         renderResultsTable(job);
         refreshViewerOverlays();
     } catch (err) {

@@ -12,6 +12,7 @@ from typing import Optional
 import requests
 
 from ..eval.compare import compare_methods
+from ..eval.dcc import evaluate_metrics, extract_ligand_center
 from ..models.pocket import JobResult, JobStatus, Method, MethodResult
 from ..tools.fpocket import run_fpocket
 from ..tools.p2rank import run_p2rank
@@ -95,6 +96,13 @@ async def run_job(job_id: str) -> None:
         results = await asyncio.gather(p2rank_task, fpocket_task)
         job.results = {Method.p2rank: results[0], Method.fpocket: results[1]}
         job.comparison = compare_methods(results[0].pockets, results[1].pockets)
+
+        ligand_center = extract_ligand_center(raw)
+        if ligand_center is not None:
+            for method, result in job.results.items():
+                if not result.error:
+                    job.metrics[method] = evaluate_metrics(result, ligand_center)
+
         job.status = JobStatus.done
     except (PDBNotFoundError, ValueError) as e:
         job.status = JobStatus.failed

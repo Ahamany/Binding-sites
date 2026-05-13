@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.0495
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7609
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5891
+HEADER 5  - Mean B-factor of pocket residues  : 0.2654
+HEADER 6  - Hydrophobicity Score              : 15.1429
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 158.0456
+HEADER 10 - Pocket volume (convex hull)       : 1.9376
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM  18076  CG2 ILE D 564      14.421  60.001  54.309  0.00  0.00           C 0
+ATOM  18188    N PHE D 580       9.758  59.085  55.909  0.67  1.09           N 0
+ATOM  18195  CD2 PHE D 580      12.991  57.381  57.398  0.00  0.00           C 0
+ATOM  18187   OG SER D 579       9.153  61.530  56.273  0.55  7.50           O 0
+ATOM  18192   CB PHE D 580      10.445  57.289  57.454  0.00  0.00           C 0
+ATOM  16308    O ASP D 347      14.038  58.967  61.106  0.67  2.14           O 0
+ATOM  16345   CB HIS D 351      10.940  58.662  61.927  0.00  0.00           C 0
+ATOM  16309   CB ASP D 347      15.926  59.811  58.288  0.00  0.00           C 0
+ATOM  16311  OD1 ASP D 347      16.217  62.130  58.156  0.00  0.00           O 0
+ATOM  16299    O GLU D 346      16.675  61.930  61.468  0.47  5.36           O 0
+ATOM  16337   CG GLN D 350      14.485  61.996  64.208  0.00  0.00           C 0
+ATOM  16341    N HIS D 351      12.655  59.135  63.616  0.00  0.00           N 0
+ATOM  16342   CA HIS D 351      11.211  58.958  63.412  0.00  0.00           C 0
+ATOM  16306   CA ASP D 347      15.777  59.945  59.796  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,31 @@
+open data/clean.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #9d47b3
+color name color_pocket3 #e65c5c
+
+name pocket1_atoms @@serial_number=701 @@serial_number=702 @@serial_number=703 @@serial_number=764 @@serial_number=761 @@serial_number=772 @@serial_number=760 @@serial_number=804 @@serial_number=805 @@serial_number=965 @@serial_number=966 @@serial_number=964 @@serial_number=695 @@serial_number=690 @@serial_number=356 @@serial_number=364 @@serial_number=387 @@serial_number=388 @@serial_number=389 @@serial_number=359 @@serial_number=730 @@serial_number=731 @@serial_number=732 @@serial_number=1115 @@serial_number=308 @@serial_number=974 @@serial_number=978 @@serial_number=969 @@serial_number=942 @@serial_number=333 @@serial_number=337 @@serial_number=338 @@serial_number=313 @@serial_number=317 @@serial_number=336 @@serial_number=339 @@serial_number=672 @@serial_number=335 @@serial_number=984 @@serial_number=986 @@serial_number=982 @@serial_number=998 @@serial_number=1357 @@serial_number=1339 @@serial_number=1340 @@serial_number=1341
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=524 @@serial_number=542 @@serial_number=543 @@serial_number=559 @@serial_number=1661 @@serial_number=1323 @@serial_number=1311 @@serial_number=679 @@serial_number=1348 @@serial_number=663 @@serial_number=664 @@serial_number=668 @@serial_number=1350 @@serial_number=1312 @@serial_number=1313 @@serial_number=575
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1215 @@serial_number=136 @@serial_number=159 @@serial_number=168 @@serial_number=192 @@serial_number=200 @@serial_number=163 @@serial_number=164 @@serial_number=1216 @@serial_number=1217 @@serial_number=1218 @@serial_number=1220 @@serial_number=1221
+color pocket3_atoms color_pocket3
+
+
+
+open data/clean.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

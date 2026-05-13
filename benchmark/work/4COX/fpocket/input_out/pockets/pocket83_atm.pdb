@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    83:
+HEADER 0  - Pocket Score                      : -0.1326
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9833
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5672
+HEADER 5  - Mean B-factor of pocket residues  : 0.3171
+HEADER 6  - Hydrophobicity Score              : 52.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 306.7286
+HEADER 10 - Pocket volume (convex hull)       : 13.3333
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 17.0000
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   3064   CB PHE A 404      12.269  42.652   1.269  0.00  0.00           C 0
+ATOM   3071    N LYS A 405      11.982  45.423   0.297  0.00  0.00           N 0
+ATOM   3106  CD1 LEU A 408      16.360  44.121  -0.915  0.00  0.00           C 0
+ATOM   3076   CG LYS A 405      10.490  45.453  -2.076  0.00  0.00           C 0
+ATOM   3405  CG2 VAL A 447      18.601  35.375  -2.874  0.00  0.00           C 0
+ATOM   3376    O ALA A 443      13.289  37.625  -3.412  0.00  0.00           O 0
+HETATM 4524  CMA HEM A 682      20.991  37.904  -2.869  0.00  0.00           C 0
+ATOM   3398   CB ALA A 446      15.888  35.806  -7.168  0.00  0.00           C 0
+ATOM   3078   CE LYS A 405       9.221  43.568  -0.908  0.00  0.00           C 0
+ATOM   3377   CB ALA A 443      11.617  39.023  -0.656  0.00  0.00           C 0
+ATOM   3374   CA ALA A 443      11.437  38.112  -1.841  0.00  0.00           C 0
+ATOM   3067  CD2 PHE A 404      13.735  40.663   1.773  0.00  0.00           C 0
+ATOM   3383  CG1 VAL A 444      15.731  37.399   0.208  0.00  0.00           C 0
+HETATM 4534  CMB HEM A 682      18.478  40.120   1.264  0.00  0.00           C 0
+ATOM   3379   CA VAL A 444      14.645  36.141  -1.663  0.00  0.00           C 0
+HETATM 4517  CHB HEM A 682      20.246  37.834   0.141  0.00  0.00           C 0
+ATOM   3375    C ALA A 443      12.805  37.500  -2.271  0.00  0.00           C 0
+TER
+END

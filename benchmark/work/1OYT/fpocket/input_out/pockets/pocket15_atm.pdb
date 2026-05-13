@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0143
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1457
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5489
+HEADER 5  - Mean B-factor of pocket residues  : 0.2817
+HEADER 6  - Hydrophobicity Score              : 11.4286
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.5331
+HEADER 10 - Pocket volume (convex hull)       : 6.0316
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM   1872  CD2 PHE H 204A      7.148  14.064  35.087  0.00  0.00           C 0
+ATOM   1869   CB PHE H 204A      6.713  16.268  33.968  0.00  0.00           C 0
+ATOM   1241   CB GLU H 127      15.434  14.822  35.564  0.00  0.00           C 0
+ATOM   1246    N THR H 128      14.621  12.408  33.700  0.00  0.00           N 0
+ATOM   1268   OG SER H 129B     11.295  12.335  37.023  0.77  5.36           O 0
+ATOM   1870   CG PHE H 204A      6.794  15.405  35.192  0.00  0.00           C 0
+ATOM   1247   CA THR H 128      13.584  11.625  33.027  0.00  0.00           C 0
+ATOM   1857   OG SER H 203       7.383  13.793  31.528  0.63  5.36           O 0
+ATOM   1274   CG LEU H 129C      9.267   8.959  33.098  0.00  0.00           C 0
+ATOM   1252  CG2 THR H 128      12.543  11.009  30.824  0.00  0.00           C 0
+ATOM   1251  OG1 THR H 128      14.112  12.794  30.939  0.64  3.21           O 0
+ATOM   1928   OH TYR H 208      11.583  15.269  28.000  0.61  5.36           O 0
+ATOM   1883  ND2 ASN H 204B      9.380  17.051  28.745  0.00  0.00           N 0
+ATOM   1225  OD2 ASP H 125      16.619  16.116  30.964  0.52  7.50           O 0
+ATOM   1926  CE2 TYR H 208      10.340  13.248  27.990  0.00  0.00           C 0
+ATOM   1224  OD1 ASP H 125      16.254  14.329  32.180  0.00  0.00           O 0
+ATOM   1239    C GLU H 127      14.660  12.493  35.027  0.00  0.00           C 0
+ATOM   1267   CB SER H 129B     10.684  11.154  36.511  0.00  0.00           C 0
+TER
+END

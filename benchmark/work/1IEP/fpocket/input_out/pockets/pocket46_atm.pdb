@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    46:
+HEADER 0  - Pocket Score                      : -0.2266
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8762
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6170
+HEADER 5  - Mean B-factor of pocket residues  : 0.1706
+HEADER 6  - Hydrophobicity Score              : 27.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 329.2224
+HEADER 10 - Pocket volume (convex hull)       : 13.5941
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.7895
+ATOM   2341   CB LYS B 234      13.744 109.414  74.195  0.00  0.00           C 0
+ATOM   2342   CG LYS B 234      13.990 107.927  74.006  0.00  0.00           C 0
+ATOM   2340    O LYS B 234      12.900 110.447  71.343  0.00  0.00           O 0
+ATOM   2343   CD LYS B 234      15.290 107.476  74.663  0.00  0.00           C 0
+ATOM   2357  CZ2 TRP B 235      15.861 104.382  70.576  0.00  0.00           C 0
+ATOM   2345   NZ LYS B 234      16.740 105.477  75.160  0.00  0.00           N 0
+ATOM   2833   CD LYS B 294      22.142 100.990  70.844  0.00  0.00           C 0
+ATOM   2835   NZ LYS B 294      23.707 102.824  71.445  0.00  0.00           N 0
+ATOM   2359  CH2 TRP B 235      16.427 104.863  69.422  0.00  0.00           C 0
+ATOM   2834   CE LYS B 294      23.178 101.980  70.340  0.00  0.00           C 0
+ATOM   2884  NE2 GLN B 300      21.805 104.591  65.295  0.00  0.00           N 0
+ATOM   2344   CE LYS B 234      15.545 105.988  74.421  0.00  0.00           C 0
+ATOM   2355  CE2 TRP B 235      14.550 104.794  70.879  0.00  0.00           C 0
+ATOM   2358  CZ3 TRP B 235      15.722 105.738  68.569  0.00  0.00           C 0
+ATOM   2356  CE3 TRP B 235      14.420 106.144  68.871  0.00  0.00           C 0
+ATOM   2896    O LEU B 302      14.932 108.479  65.731  0.69  9.64           O 0
+ATOM   2353  CD2 TRP B 235      13.819 105.666  70.045  0.00  0.00           C 0
+TER
+END

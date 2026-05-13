@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0758
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8447
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5279
+HEADER 5  - Mean B-factor of pocket residues  : 0.6306
+HEADER 6  - Hydrophobicity Score              : 20.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 221.3894
+HEADER 10 - Pocket volume (convex hull)       : 8.8491
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM    334   CG ARG L  45       5.345  19.314  48.194  0.00  0.00           C 0
+ATOM    320  OE1 GLN L  43       4.525  23.923  45.275  0.00  0.00           O 0
+ATOM    319   CD GLN L  43       4.965  22.808  45.002  0.00  0.00           C 0
+ATOM    335   CD ARG L  45       4.438  19.035  47.043  0.00  0.00           C 0
+ATOM    336   NE ARG L  45       3.108  18.749  47.532  0.00  0.00           N 0
+ATOM    340    N LEU L  46       7.702  18.790  50.909  0.57  2.19           N 0
+ATOM    330   CA ARG L  45       7.799  19.699  48.645  0.00  0.00           C 0
+ATOM   2420   CB ASP H 101       7.553  23.900  53.273  0.00  0.00           C 0
+ATOM    343    O LEU L  46       5.339  17.358  51.732  0.00  0.00           O 0
+ATOM    421  CD2 LEU L  55       4.355  18.567  55.350  0.00  0.00           C 0
+ATOM   2416    N ASP H 101       5.567  25.301  53.060  0.00  0.00           N 0
+ATOM   2412   CA VAL H 100B      3.218  25.682  53.376  0.00  0.00           C 0
+ATOM   2415   CB VAL H 100B      2.815  26.963  52.665  0.00  0.00           C 0
+ATOM    344   CB LEU L  46       7.959  18.293  53.279  0.00  0.00           C 0
+ATOM    318   CG GLN L  43       6.425  22.412  45.256  0.00  0.00           C 0
+ATOM    317   CB GLN L  43       7.399  23.453  45.897  0.00  0.00           C 0
+ATOM   2419    O ASP H 101       7.574  25.960  51.095  0.00  0.00           O 0
+ATOM    325    O PRO L  44       9.539  21.889  48.776  0.00  0.00           O 0
+TER
+END

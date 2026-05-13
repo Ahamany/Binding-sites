@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    74:
+HEADER 0  - Pocket Score                      : -0.1136
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8420
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5571
+HEADER 5  - Mean B-factor of pocket residues  : 0.1618
+HEADER 6  - Hydrophobicity Score              : -5.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.5928
+HEADER 10 - Pocket volume (convex hull)       : 0.8399
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   1685  NH1 ARG A 240      36.423  46.801   0.359  0.00  0.00           N 0
+ATOM   1714   NZ LYS A 243      41.626  51.416  -1.862  0.39  7.66           N 0
+ATOM   1675  OD2 ASP A 239      44.051  48.214  -1.482  0.00  0.00           O 0
+ATOM   1944   CB GLU A 272      35.832  49.304  -3.626  0.00  0.00           C 0
+ATOM   1940    N GLU A 272      36.345  50.258  -1.429  0.57  5.47           N 0
+ATOM   1680   CB ARG A 240      41.127  46.096   2.003  0.00  0.00           C 0
+ATOM   1658  OG1 THR A 237      42.853  43.687   0.166  0.00  0.00           O 0
+ATOM   1682   CD ARG A 240      38.629  45.560   1.769  0.00  0.00           C 0
+ATOM   1681   CG ARG A 240      39.691  46.384   2.499  0.00  0.00           C 0
+ATOM   1712   CD LYS A 243      42.044  51.485   0.560  0.00  0.00           C 0
+ATOM   1934   CA VAL A 271      37.471  51.475   0.377  0.00  0.00           C 0
+ATOM   1677   CA ARG A 240      42.132  47.218   2.269  0.00  0.00           C 0
+ATOM   1937   CB VAL A 271      37.354  50.703   1.732  0.00  0.00           C 0
+TER
+END

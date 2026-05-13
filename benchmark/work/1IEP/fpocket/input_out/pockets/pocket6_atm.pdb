@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 0.0515
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9155
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6732
+HEADER 5  - Mean B-factor of pocket residues  : 0.4379
+HEADER 6  - Hydrophobicity Score              : 30.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.4844
+HEADER 10 - Pocket volume (convex hull)       : 10.9464
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.7778
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM   4226   CE LYS B 467      37.153  76.421  58.760  0.00  0.00           C 0
+ATOM   4439    O ALA B 492      34.462  80.575  61.484  0.53  1.07           O 0
+ATOM   4467  CG2 THR B 495      38.523  79.548  62.921  0.00  0.00           C 0
+ATOM   4227   NZ LYS B 467      38.031  77.576  59.120  0.68  3.28           N 0
+ATOM   4465   CB THR B 495      37.285  80.396  63.173  0.00  0.00           C 0
+ATOM   4437   CA ALA B 492      32.962  79.725  63.147  0.00  0.00           C 0
+ATOM   4466  OG1 THR B 495      36.961  80.356  64.568  0.54  4.29           O 0
+ATOM   4440   CB ALA B 492      31.927  78.733  62.635  0.00  0.00           C 0
+ATOM   4475   CE MET B 496      33.187  79.402  58.804  0.00  0.00           C 0
+ATOM   4257   CA LEU B 471      28.047  75.055  58.324  0.00  0.00           C 0
+ATOM   4287   CB ALA B 474      25.790  72.476  60.824  0.00  0.00           C 0
+ATOM   4250    O GLU B 470      27.690  72.337  57.855  0.00  0.00           O 0
+ATOM   4262  CD1 LEU B 471      28.864  76.698  60.867  0.00  0.00           C 0
+ATOM   4256    N LEU B 471      28.794  74.235  57.379  0.00  0.00           N 0
+ATOM   4251   CB GLU B 470      30.792  71.950  56.806  0.00  0.00           C 0
+ATOM   4249    C GLU B 470      28.551  72.940  57.220  0.00  0.00           C 0
+ATOM   4222    O LYS B 467      31.893  75.547  56.696  0.58  3.21           O 0
+ATOM   4254  OE1 GLU B 470      33.360  71.125  57.683  0.00  0.00           O 0
+ATOM   4224   CG LYS B 467      36.040  75.172  56.881  0.00  0.00           C 0
+TER
+END

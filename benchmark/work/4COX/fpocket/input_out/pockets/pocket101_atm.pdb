@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   101:
+HEADER 0  - Pocket Score                      : -0.1993
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1450
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6481
+HEADER 5  - Mean B-factor of pocket residues  : 0.5785
+HEADER 6  - Hydrophobicity Score              : 14.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 351.2877
+HEADER 10 - Pocket volume (convex hull)       : 8.5305
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7500
+ATOM   5312  CE2 TYR B 122      60.270  17.551  22.187  0.00  0.00           C 0
+ATOM   4945   CE LYS B  79      58.464  14.727  30.651  0.00  0.00           C 0
+ATOM   5314   OH TYR B 122      60.852  19.253  23.825  0.00  0.00           O 0
+ATOM   5313   CZ TYR B 122      60.029  18.792  22.810  0.00  0.00           C 0
+ATOM   4944   CD LYS B  79      59.743  15.533  30.766  0.00  0.00           C 0
+ATOM   5310  CD2 TYR B 122      59.466  17.162  21.093  0.00  0.00           C 0
+ATOM   5277   CB THR B 118      56.788  12.014  17.679  0.00  0.00           C 0
+ATOM   5307   CB TYR B 122      57.613  17.597  19.403  0.00  0.00           C 0
+ATOM   5276    O THR B 118      58.181  15.094  17.574  0.82  1.07           O 0
+ATOM   5275    C THR B 118      58.479  13.898  17.521  0.00  0.00           C 0
+ATOM   5280    N SER B 119      59.579  13.416  18.088  0.00  0.00           N 0
+ATOM   5278  OG1 THR B 118      57.666  11.055  18.269  0.83  5.36           O 0
+ATOM   5281   CA SER B 119      60.479  14.282  18.870  0.00  0.00           C 0
+ATOM   5254  CE1 TYR B 115      61.451   9.973  21.573  0.00  0.00           C 0
+ATOM   4977   CD LYS B  83      65.159  13.624  26.967  0.00  0.00           C 0
+ATOM   4979   NZ LYS B  83      63.807  11.375  27.119  0.53  4.37           N 0
+ATOM   5257   OH TYR B 115      63.534  10.951  22.284  0.54  3.21           O 0
+ATOM   5284   CB SER B 119      61.644  13.470  19.450  0.00  0.00           C 0
+TER
+END

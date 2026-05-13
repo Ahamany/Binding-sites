@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    96:
+HEADER 0  - Pocket Score                      : -0.1870
+HEADER 1  - Drug Score                        : 0.1283
+HEADER 2  - Number of alpha spheres           :    69
+HEADER 3  - Mean alpha-sphere radius          : 4.0500
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4836
+HEADER 5  - Mean B-factor of pocket residues  : 0.2508
+HEADER 6  - Hydrophobicity Score              : 36.3529
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 4.9412
+HEADER 9  - Pocket volume (Monte Carlo)       : 559.3690
+HEADER 10 - Pocket volume (convex hull)       : 105.1621
+HEADER 11 - Charge Score                      :     5
+HEADER 12 - Local hydrophobic density Score   : 38.9756
+HEADER 13 - Number of apolar alpha sphere     :    41
+HEADER 14 - Proportion of apolar alpha sphere : 0.5942
+HETATM 9136  O2D HEM B 682      67.009  31.987  -2.617  0.89  1.07           O 0
+HETATM 9108  CAA HEM B 682      72.412  33.563  -4.081  0.00  0.00           C 0
+HETATM 9104  C2A HEM B 682      73.080  32.211  -4.325  0.00  0.00           C 0
+ATOM   6684  CG2 VAL B 291      68.287  31.114 -10.720  0.00  0.00           C 0
+ATOM   6704   CB LEU B 294      72.085  29.927 -13.247  0.00  0.00           C 0
+ATOM   5963  OE1 GLN B 203      72.877  25.693  -7.146  0.00  0.00           O 0
+HETATM 9100  CHB HEM B 682      75.159  29.915  -6.091  0.00  0.00           C 0
+HETATM 9099  CHA HEM B 682      71.815  30.700  -2.739  0.00  0.00           C 0
+ATOM   6706  CD1 LEU B 294      70.643  31.940 -12.792  0.00  0.00           C 0
+HETATM 9105  C3A HEM B 682      74.029  31.950  -5.257  0.00  0.00           C 0
+HETATM 9103  C1A HEM B 682      72.782  30.911  -3.710  0.00  0.00           C 0
+ATOM   6683  CG1 VAL B 291      67.504  28.960  -9.815  0.00  0.00           C 0
+ATOM   6681    O VAL B 291      68.959  28.399 -12.409  0.00  0.00           O 0
+ATOM   6733  CD2 LEU B 298      70.971  24.669  -9.650  0.00  0.00           C 0
+HETATM 9106  C4A HEM B 682      74.325  30.536  -5.204  0.00  0.00           C 0
+ATOM   6131  NH2 ARG B 222      63.567  33.123  -6.159  0.37  8.75           N 0
+ATOM   6026    O PHE B 210      64.569  28.608  -2.959  0.69  2.14           O 0
+ATOM   6035   CA LYS B 211      63.155  30.927  -3.269  0.00  0.00           C 0
+ATOM   7690  CD2 LEU B 408      77.807  28.867 -11.873  0.00  0.00           C 0
+ATOM   7689  CD1 LEU B 408      79.036  31.046 -12.063  0.00  0.00           C 0
+ATOM   7698  CD2 TYR B 409      75.445  31.712 -15.666  0.00  0.00           C 0
+ATOM   6714  CG2 VAL B 295      74.501  26.742 -11.019  0.00  0.00           C 0
+HETATM 9113  C1B HEM B 682      75.385  28.571  -6.141  0.00  0.00           C 0
+ATOM   7700  CE2 TYR B 409      76.392  32.699 -15.440  0.00  0.00           C 0
+HETATM 9107  CMA HEM B 682      74.595  32.908  -6.282  0.00  0.00           C 0
+ATOM   6547  CD1 ILE B 274      66.120  34.686 -12.467  0.00  0.00           C 0
+ATOM   6064  ND1 HIS B 214      66.849  37.166  -4.552  0.81  2.19           N 0
+ATOM   6668  NE2 GLN B 289      63.787  27.902  -7.502  0.69  4.37           N 0
+ATOM   6667  OE1 GLN B 289      63.701  28.619  -9.639  0.00  0.00           O 0
+HETATM 9117  CMB HEM B 682      76.887  28.612  -8.335  0.00  0.00           C 0
+ATOM   6707  CD2 LEU B 294      72.096  31.929 -14.840  0.00  0.00           C 0
+ATOM   6682   CB VAL B 291      67.186  30.117 -10.727  0.00  0.00           C 0
+ATOM   6066  CE1 HIS B 214      67.557  36.346  -3.792  0.00  0.00           C 0
+ATOM   6677  OE2 GLU B 290      63.022  33.169 -10.524  0.73  4.29           O 0
+ATOM   6002  NE2 HIS B 207      69.288  27.311  -4.802  0.71  3.28           N 0
+HETATM 9133  CBD HEM B 682      68.331  30.195  -1.744  0.00  0.00           C 0
+ATOM   6703    O LEU B 294      74.630  28.221 -13.623  0.00  0.00           O 0
+ATOM   6076   NZ LYS B 215      62.963  37.538  -6.880  0.68  9.84           N 0
+ATOM   6000  CD2 HIS B 207      68.252  26.954  -5.624  0.00  0.00           C 0
+HETATM 9137   NA HEM B 682      73.567  29.899  -4.247  0.00  0.00           N 0
+TER
+END
