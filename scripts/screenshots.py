@@ -1,7 +1,7 @@
 """Capture screenshots of the live UI for Pre-defense slides.
 
 Запуск (предполагается uvicorn на :8000):
-    source /home/ahamany/miniconda3/etc/profile.d/conda.sh && conda activate annc
+    source "$(conda info --base)/etc/profile.d/conda.sh" && conda activate annc
     python scripts/screenshots.py
 
 Кладёт PNG в docs/screenshots/:

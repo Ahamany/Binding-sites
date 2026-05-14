@@ -3,7 +3,14 @@
 
 set -euo pipefail
 
-CONDA_ENV="${CONDA_ENV:-/home/ahamany/miniconda3/envs/annc}"
+if [[ -z "${CONDA_ENV:-}" ]]; then
+    CONDA_BASE="$(conda info --base 2>/dev/null || true)"
+    if [[ -z "$CONDA_BASE" ]]; then
+        echo "ERROR: conda not found in PATH. Активируйте conda или задайте CONDA_ENV вручную." >&2
+        exit 1
+    fi
+    CONDA_ENV="$CONDA_BASE/envs/annc"
+fi
 PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 P2RANK_DIR="$PROJECT_ROOT/third_party/p2rank"
 

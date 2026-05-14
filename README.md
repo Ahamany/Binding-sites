@@ -46,7 +46,7 @@ Saint Petersburg 2026 · Project №4 «Detection of protein–small-molecule bi
 - **Detection:** P2Rank 2.5.1 (Java 17 CLI), fpocket 4.0 (бинарь).
 - **Frontend:** Vanilla JS + 3Dmol.js (CDN), без билд-стека.
 - **Тесты:** pytest (unit) + bash smoke-скрипт против поднятого API.
-- **Окружение:** conda env `annc` в `/home/ahamany/miniconda3/envs/annc`. Все зависимости — **строго туда**, глобально ничего не ставим.
+- **Окружение:** conda env `annc` (Python 3.13). Все зависимости — **строго туда**, глобально ничего не ставим.
 
 ---
 
@@ -55,7 +55,7 @@ Saint Petersburg 2026 · Project №4 «Detection of protein–small-molecule bi
 ### 1. Создать (или активировать) conda env
 
 ```bash
-source /home/ahamany/miniconda3/etc/profile.d/conda.sh
+source "$(conda info --base)/etc/profile.d/conda.sh"
 conda create -n annc python=3.13 -y    # если env ещё нет
 conda activate annc
 ```
